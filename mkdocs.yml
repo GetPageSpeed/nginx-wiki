@@ -1,0 +1,212 @@
+site_name: NGINX Wiki
+site_description: Community documentation for NGINX configuration, architecture, and module development.
+site_url: https://nginx-wiki.getpagespeed.com/
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  logo: assets/images/logo.svg
+  favicon: assets/images/nginx-favicon.png
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+plugins:
+  - search
+  - i18n:
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ru
+          name: Русский
+          build: true
+      docs_structure: suffix
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Architecture:
+      - Overview: architecture/index.md
+      - Process model: architecture/process-model.md
+      - Event loop & concurrency: architecture/event-loop.md
+      - Request lifecycle: architecture/request-lifecycle.md
+  - Core APIs:
+      - Overview: core-apis/index.md
+      - Module API: core-apis/module-api.md
+      - Main module API: core-apis/main-module-api.md
+      - Utility API: core-apis/utility-api.md
+      - Memory management API: core-apis/memory-api.md
+      - Configuration API: core-apis/configuration-api.md
+      - Configuration variables API: core-apis/variables-api.md
+      - Logging API: core-apis/logging-api.md
+      - Event handling API: core-apis/event-api.md
+      - HTTP API: core-apis/http-api.md
+      - Mail API: core-apis/mail-api.md
+      - Headers management: core-apis/headers.md
+  - Module development:
+      - Overview: modules-dev/index.md
+      - Compiling NGINX & modules: modules-dev/compiling.md
+      - Configuration language: modules-dev/configuration.md
+      - Working examples: modules-dev/examples/index.md
+  - Configuration & patterns:
+      - Overview: config/index.md
+      - Installing & running NGINX: config/installing.md
+      - Command-line & process management: config/command-line.md
+      - SSL/TLS configuration: config/ssl.md
+      - Security hardening: config/security.md
+      - Load balancing: config/load-balancing.md
+      - HTTP/3 (QUIC): config/http3.md
+      - Monitoring & observability: config/monitoring.md
+      - Debugging: config/debugging.md
+      - Optimizations: config/optimizations.md
+      - Pitfalls & common mistakes: config/pitfalls.md
+      - If is Evil: config/if-is-evil.md
+      - Examples:
+          - Overview: config/examples/index.md
+          - Full example: config/examples/full.md
+          - Another full example: config/examples/full-2.md
+          - Simple load balancing: config/examples/load-balancing.md
+          - Reverse proxy with caching: config/examples/reverse-proxy-caching.md
+          - SSL/TLS termination: config/examples/ssl-termination.md
+          - Server blocks: config/examples/server-blocks.md
+          - FastCGI setup: config/examples/fastcgi.md
+          - X-Accel (X-Sendfile): config/examples/x-accel.md
+          - Log rotation: config/examples/log-rotation.md
+          - Systemd service: config/examples/systemd.md
+          - Init scripts: config/examples/init-scripts.md
+          - Forwarded header (RFC 7239): config/examples/forwarded-header.md
+          - Apache-like configs: config/examples/like-apache.md
+          - IMAP/POP3 proxy: config/examples/imap-proxy.md
+          - Dynamic SSI: config/examples/dynamic-ssi.md
+          - Per-VirtualHost logs: config/examples/per-vhost-logs.md
+          - CGI with fcgiwrap: config/examples/fcgiwrap.md
+          - Embedded Perl: config/examples/embedded-perl.md
+          - Source code tricks: config/examples/source-tricks.md
+          - Non-root path: config/examples/non-root-path.md
+          - Hardware LB errors: config/examples/hardware-lb-errors.md
+          - Headers management: config/examples/headers-management.md
+          - Mono (.NET): config/examples/mono.md
+          - macOS Launchd: config/examples/macos-launchd.md
+          - Ubuntu Upstart: config/examples/ubuntu-upstart.md
+          - FreeBSD spawn-fcgi: config/examples/freebsd-spawn-fcgi.md
+          - FreeBSD PHP-FPM: config/examples/freebsd-php-fcgi.md
+          - FreeBSD Python FCGI: config/examples/freebsd-python-fcgi.md
+          - Red Hat init script: config/examples/redhat-init.md
+          - Red Hat PHP FCGI: config/examples/redhat-php-fcgi.md
+          - Windows PHP: config/examples/windows-php.md
+          - IMAP auth (PHP): config/examples/imap-auth-php.md
+          - IMAP auth (Perl): config/examples/imap-auth-perl.md
+          - Perl sitemaps proxy: config/examples/perl-sitemaps.md
+          - Memcache preload: config/examples/memcache-preload.md
+      - Getting started: config/getting-started.md
+      - Configure options: config/configure-options.md
+      - Application recipes:
+          - Overview: config/recipes/index.md
+          - PHP-FPM: config/recipes/php-fpm.md
+          - WordPress: config/recipes/wordpress.md
+          - Drupal: config/recipes/drupal.md
+          - Laravel: config/recipes/laravel.md
+          - Symfony: config/recipes/symfony.md
+          - CodeIgniter: config/recipes/codeigniter.md
+          - MediaWiki: config/recipes/mediawiki.md
+          - Java servers: config/recipes/java-servers.md
+          - Django: config/recipes/django.md
+          - Ruby (Unicorn/Puma): config/recipes/ruby.md
+          - Pylons: config/recipes/pylons.md
+          - Yii: config/recipes/yii.md
+          - Zend Framework: config/recipes/zend.md
+          - XenForo: config/recipes/xenforo.md
+          - Shopware: config/recipes/shopware.md
+          - Redmine: config/recipes/redmine.md
+          - DokuWiki: config/recipes/dokuwiki.md
+          - PmWiki: config/recipes/pmwiki.md
+          - MyBB: config/recipes/mybb.md
+          - MoinMoin: config/recipes/moinmoin.md
+          - Matomo: config/recipes/matomo.md
+          - osCommerce: config/recipes/oscommerce.md
+          - b2evolution: config/recipes/b2evolution.md
+          - Zenphoto: config/recipes/zenphoto.md
+          - SilverStripe: config/recipes/silverstripe.md
+          - phpList: config/recipes/phplist.md
+          - osTicket: config/recipes/osticket.md
+          - Omeka: config/recipes/omeka.md
+          - Elgg: config/recipes/elgg.md
+          - CMS Made Simple: config/recipes/cms-made-simple.md
+          - PyroCMS: config/recipes/pyrocms.md
+          - Bagisto: config/recipes/bagisto.md
+          - ExpressionEngine: config/recipes/expressionengine.md
+          - iRedMail: config/recipes/iredmail.md
+          - Mailman: config/recipes/mailman.md
+          - SPIP: config/recipes/spip.md
+          - UVdesk: config/recipes/uvdesk.md
+          - Zope: config/recipes/zope.md
+          - Geth (Ethereum): config/recipes/geth.md
+          - Krayin CRM: config/recipes/krayin.md
+          - QloApps: config/recipes/qloapps.md
+          - Qwebirc: config/recipes/qwebirc.md
+          - Omeka S: config/recipes/omeka-s.md
+      - Platform guides:
+          - Overview: config/platforms/index.md
+          - Solaris 11: config/platforms/solaris.md
+          - Solaris 10: config/platforms/solaris-10.md
+          - OpenBSD: config/platforms/openbsd.md
+  - Ecosystem:
+      - 3rd-party modules catalog: ecosystem/3rd-party-modules.md
+      - Module documentation:
+          - Upload module: ecosystem/modules/upload.md
+          - Nchan (pub/sub): ecosystem/modules/nchan.md
+  - Community:
+      - Contributing: community/contributing.md
+      - Getting involved: community/get-involved.md
+      - Why NGINX?: community/why-nginx.md
+      - FAQ: community/faq.md
+      - IRC: community/irc.md
+      - IRC operators: community/irc-ops.md
+      - Coding style: community/coding-style.md
+      - Talks & presentations: community/talks.md
+      - Resources: community/resources.md
+
+

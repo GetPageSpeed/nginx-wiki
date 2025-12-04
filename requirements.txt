@@ -1,3 +1,10 @@
-Sphinx==4.4.0
-commonmark==0.9.1
-recommonmark==0.7.1
+# MkDocs and theme
+mkdocs>=1.5
+mkdocs-material>=9.0
+
+# Plugins
+mkdocs-static-i18n>=1.0
+
+# Optional but recommended
+pillow  # For social cards
+cairosvg  # For social cards

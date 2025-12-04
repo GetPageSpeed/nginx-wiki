@@ -1,6 +1,29 @@
+# Python
 *.pyc
-build
-*.swp
-*.mo
+__pycache__/
+*.pyo
+.Python
+env/
+venv/
+.venv/
+
+# MkDocs
+site/
+
+# Build artifacts
+build/
+*.egg-info/
+
+# OS
 .DS_Store
-.idea
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Translations
+*.mo
