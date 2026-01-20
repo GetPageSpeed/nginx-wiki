@@ -1,6 +1,19 @@
 ---
-title: 3rd-Party Modules Catalog
-description: Community-maintained modules extending NGINX functionality.
+title: NGINX 3rd-Party Modules Catalog - Community Extensions
+description: Complete catalog of community-maintained NGINX modules for caching, security, Lua scripting, load balancing, and more.
+keywords: nginx modules, nginx extensions, nginx lua, nginx security, nginx caching, nginx load balancing, third party modules
+author: NGINX Community
+date: 2024-01-01
+updated: 2025-01-21
+schema_type: TechArticle
+tags:
+  - modules
+  - extensions
+  - third-party
+  - caching
+  - security
+  - lua
+  - load-balancing
 ---
 
 # 3rd-Party Modules Catalog
@@ -193,6 +206,26 @@ sudo service nginx upgrade
 ```
 
 This performs a binary upgrade without dropping connections.
+
+---
+
+## Configuration Tools
+
+These standalone tools help you analyze and validate NGINX configurations:
+
+| Tool | Description | Link |
+|------|-------------|------|
+| **Gixy** | Static analyzer for NGINX configs, detects security misconfigurations | [gixy.org](https://gixy.org/) |
+| **nginx-config-formatter** | Formats and beautifies nginx configs | [GitHub](https://github.com/1connect/nginx-config-formatter) |
+| **crossplane** | Parse and analyze NGINX configs programmatically | [GitHub](https://github.com/nginxinc/crossplane) |
+
+```bash
+# Install Gixy
+pip install gixy
+
+# Analyze your configuration
+gixy /etc/nginx/nginx.conf
+```
 
 ---
 

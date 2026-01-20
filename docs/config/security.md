@@ -1,6 +1,19 @@
 ---
-title: Security Hardening
-description: Comprehensive security hardening guide for NGINX.
+title: NGINX Security Hardening - Complete Web Server Security Guide
+description: Secure NGINX with security headers, rate limiting, WAF, SSL/TLS hardening, IP allowlisting, and fail2ban integration. Protect against attacks.
+keywords: NGINX security, NGINX hardening, security headers, rate limiting, ModSecurity, NGINX WAF, NGINX SSL, DDoS protection
+author: NGINX Community
+date: 2024-01-01
+updated: 2025-01-21
+schema_type: TechArticle
+tags:
+  - security
+  - hardening
+  - security headers
+  - rate limiting
+  - WAF
+  - SSL/TLS
+  - authentication
 ---
 
 # Security Hardening
@@ -434,6 +447,36 @@ bantime = 3600
 
 ---
 
+## Configuration Analysis with Gixy
+
+[Gixy](https://gixy.org/) is a static analyzer for NGINX configuration files. It detects security misconfigurations, common mistakes, and potential vulnerabilities before they reach production.
+
+```bash
+# Install gixy
+pip install gixy
+
+# Analyze your configuration
+gixy /etc/nginx/nginx.conf
+
+# Check specific server blocks
+gixy /etc/nginx/sites-enabled/*
+```
+
+Gixy checks for:
+
+- Server-Side Request Forgery (SSRF) via `proxy_pass`
+- HTTP Splitting vulnerabilities
+- Referrer/Origin validation issues
+- `add_header` directive overrides
+- Host header forgery
+- Valid `if` directive usage
+- And many more security issues
+
+!!! tip "Integrate into CI/CD"
+    Run `gixy` as part of your deployment pipeline to catch misconfigurations before they're deployed.
+
+---
+
 ## Security Checklist
 
 - [ ] HTTPS with TLS 1.2+ only
@@ -446,6 +489,7 @@ bantime = 3600
 - [ ] Logging configured
 - [ ] Fail2ban active
 - [ ] Regular updates applied
+- [ ] Configuration analyzed with [Gixy](https://gixy.org/)
 
 ---
 
@@ -454,4 +498,5 @@ bantime = 3600
 - [SSL/TLS Configuration](ssl.md)
 - [Pitfalls and Common Mistakes](pitfalls.md)
 - [HTTP/3 Configuration](http3.md)
+- [Gixy - NGINX Configuration Analyzer](https://gixy.org/)
 

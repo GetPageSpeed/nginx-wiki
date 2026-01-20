@@ -1,6 +1,16 @@
 ---
-title: Pitfalls and Common Mistakes
-description: This page outlines some of the NGINX configuration issues that we see frequently and then explains how to resolve them.
+title: NGINX Pitfalls and Common Mistakes - Configuration Errors to Avoid
+description: Avoid common NGINX configuration mistakes. Learn about chmod 777 dangers, root inside location, proxy_pass with trailing slashes, if directive issues, and more pitfalls that break NGINX setups.
+keywords: nginx pitfalls, nginx common mistakes, nginx configuration errors, nginx troubleshooting, nginx if is evil, nginx root location, nginx proxy_pass, nginx best practices, nginx debugging
+author: NGINX Community
+date: 2024-01-01
+updated: 2025-01-21
+schema_type: TechArticle
+tags:
+  - configuration
+  - troubleshooting
+  - best-practices
+  - pitfalls
 ---
 
 # Pitfalls and Common Mistakes
@@ -400,5 +410,30 @@ Due to the POODLE vulnerability in SSLv3, it is advised to not use SSLv3 in your
 ```nginx
 ssl_protocols TLSv1.2 TLSv1.3;
 ```
+
+---
+
+## Automated Configuration Checking
+
+Many of the pitfalls listed above can be detected automatically using [Gixy](https://gixy.org/), a static analyzer for NGINX configuration files.
+
+```bash
+# Install gixy
+pip install gixy
+
+# Check your configuration
+gixy /etc/nginx/nginx.conf
+```
+
+Gixy will catch issues like:
+
+- Dangerous `if` directive usage
+- `add_header` directive problems
+- Host header forgery vulnerabilities
+- SSRF via misconfigured `proxy_pass`
+- HTTP splitting issues
+
+!!! tip "Validate Before Deploying"
+    Always run `gixy` on your configuration before reloading NGINX in production.
 
 

@@ -1,6 +1,18 @@
 ---
-title: Debugging
-description: This tutorial explains how to use some of NGINX's essential debugging features.
+title: NGINX Debugging Guide - Debug Logs, Core Dumps, Troubleshooting
+description: Debug NGINX with debug logging, core dumps, and GDB analysis. Learn to compile with debug symbols and troubleshoot socket leaks and crashes.
+keywords: NGINX debugging, NGINX debug log, NGINX core dump, GDB NGINX, debug_connection, NGINX troubleshooting, debug symbols
+author: NGINX Community
+date: 2024-01-01
+updated: 2025-01-21
+schema_type: TechArticle
+tags:
+  - debugging
+  - troubleshooting
+  - core dumps
+  - GDB
+  - debug logging
+  - development
 ---
 
 # Debugging
@@ -99,6 +111,19 @@ fgrep ' *12345678 ' /path/to/error_log
 
 ---
 
+## Static Configuration Analysis
+
+Before debugging runtime issues, check your configuration for common mistakes using [Gixy](https://gixy.org/):
+
+```bash
+pip install gixy
+gixy /etc/nginx/nginx.conf
+```
+
+Gixy catches security issues and misconfigurations that might cause unexpected behavior.
+
+---
+
 ## Asking for Help
 
 When asking for help with debugging please provide:
@@ -107,4 +132,5 @@ When asking for help with debugging please provide:
 - Full config
 - Debug log
 - Backtrace (if NGINX exits on signal)
+- Gixy analysis output (if configuration-related)
 

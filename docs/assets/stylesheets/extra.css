@@ -192,6 +192,34 @@
   background: var(--bg-surface-raised);
 }
 
+[data-md-color-scheme="default"] .md-search__input {
+  color: var(--text-primary);
+  background: #f5f5f7;
+  border: 1px solid var(--border-color-light);
+}
+
+[data-md-color-scheme="default"] .md-search__input::placeholder {
+  color: var(--text-tertiary);
+}
+
+[data-md-color-scheme="default"] .md-search__input:focus {
+  border-color: var(--nginx-green);
+}
+
+/* Fix header icons and text in light mode */
+[data-md-color-scheme="default"] .md-header__button.md-logo img,
+[data-md-color-scheme="default"] .md-header__button.md-logo svg {
+  filter: none;
+}
+
+[data-md-color-scheme="default"] .md-header .md-search__icon {
+  color: var(--text-secondary);
+}
+
+[data-md-color-scheme="default"] .md-header .md-header__topic {
+  color: var(--text-primary);
+}
+
 /* ==========================================================================
    Navigation Tabs
    ========================================================================== */
