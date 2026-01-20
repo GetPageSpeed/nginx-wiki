@@ -220,6 +220,23 @@
   color: var(--text-primary);
 }
 
+/* Force dark text on all header elements in light mode */
+[data-md-color-scheme="default"] .md-header__title {
+  color: #1d1d1f !important;
+}
+
+[data-md-color-scheme="default"] .md-header__button {
+  color: #6e6e73 !important;
+}
+
+[data-md-color-scheme="default"] .md-header__button:hover {
+  color: #1d1d1f !important;
+}
+
+[data-md-color-scheme="default"] .md-header__ellipsis {
+  color: #1d1d1f !important;
+}
+
 /* ==========================================================================
    Navigation Tabs
    ========================================================================== */
@@ -244,6 +261,16 @@
 .md-tabs__link--active,
 .md-tabs__link:hover {
   color: var(--text-primary);
+}
+
+/* Force dark text on tabs in light mode */
+[data-md-color-scheme="default"] .md-tabs__link {
+  color: #6e6e73 !important;
+}
+
+[data-md-color-scheme="default"] .md-tabs__link--active,
+[data-md-color-scheme="default"] .md-tabs__link:hover {
+  color: #1d1d1f !important;
 }
 
 /* ==========================================================================
