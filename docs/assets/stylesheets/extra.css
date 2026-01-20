@@ -135,6 +135,14 @@
   transition: color var(--transition);
 }
 
+.md-typeset a:visited {
+  color: var(--md-typeset-a-color);
+}
+
+[data-md-color-scheme="default"] .md-typeset a:visited {
+  color: var(--nginx-green-dark);
+}
+
 .md-typeset a:hover {
   text-decoration: underline;
 }
