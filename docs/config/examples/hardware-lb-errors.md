@@ -1,6 +1,17 @@
 ---
-title: Hardware Load Balancer Errors
-description: Handling SYN-ACK-RST health checks from hardware load balancers.
+title: NGINX Handling Hardware Load Balancer Health Check Errors
+description: Fix NGINX 400 errors from hardware load balancers like Cisco CSS and F5 BigIP SYN-ACK-RST health checks using geo module.
+keywords: nginx hardware load balancer, nginx f5, nginx cisco css, nginx 400 error, nginx health check, nginx geo module
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - load balancer
+  - health check
+  - f5
+  - cisco
 ---
 
 # Hardware Load Balancer Errors

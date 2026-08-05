@@ -1,6 +1,17 @@
 ---
-title: Source Code Tricks
-description: Handy bash commands for exploring the NGINX source.
+title: NGINX Source Code Exploration Commands and Tricks
+description: Useful bash commands for exploring NGINX source code including finding directives, variables, modules, and handler functions.
+keywords: nginx source code, nginx internals, nginx development, nginx grep, nginx directives, nginx modules source
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - source code
+  - development
+  - internals
+  - bash
 ---
 
 # Source Code Tricks

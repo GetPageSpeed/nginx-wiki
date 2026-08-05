@@ -1,6 +1,17 @@
 ---
-title: PmWiki
-description: A sample NGINX configuration for PmWiki.
+title: NGINX PmWiki Configuration Guide
+description: Configure NGINX for PmWiki collaborative wiki system with URL rewriting, static file caching, and security settings.
+keywords: nginx, pmwiki, wiki, collaborative wiki, php, url rewriting, documentation, cms
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - pmwiki
+  - wiki
+  - php
+  - collaborative
 ---
 
 # PmWiki

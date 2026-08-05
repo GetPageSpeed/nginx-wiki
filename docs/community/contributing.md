@@ -1,5 +1,16 @@
 ---
-title: Contributing
+title: Contributing to NGINX Wiki - Community Guidelines
+description: Learn how to contribute to NGINX documentation, suggest improvements, and help the NGINX community grow.
+keywords: nginx contributing, nginx documentation, nginx community, nginx wiki, open source contribution
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: WebPage
+tags:
+  - community
+  - contributing
+  - documentation
+  - open-source
 ---
 
 # Contributing

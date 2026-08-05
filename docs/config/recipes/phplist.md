@@ -1,6 +1,18 @@
 ---
-title: PHPList
-description: A sample NGINX configuration for PHPList newsletter manager.
+title: NGINX PHPList Configuration Guide
+description: Secure NGINX configuration for PHPList email marketing and newsletter software with whitelisted PHP files and protected directories.
+keywords: nginx, phplist, email marketing, newsletter, mailing list, php, email software, open source
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - phplist
+  - email marketing
+  - newsletter
+  - php
+  - security
 ---
 
 # PHPList

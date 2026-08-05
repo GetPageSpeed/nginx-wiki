@@ -1,6 +1,17 @@
 ---
-title: Embedded Perl Sitemaps Proxy
-description: Dynamic sitemap proxy using NGINX embedded Perl.
+title: NGINX Embedded Perl Dynamic Sitemap Proxy
+description: Serve sitemaps for multiple domains from a central NGINX server using embedded Perl with LWP for dynamic fetching and caching.
+keywords: nginx sitemap proxy, nginx embedded perl, nginx sitemap, nginx multi-domain, nginx perl lwp, sitemap xml proxy
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - perl
+  - sitemap
+  - proxy
+  - seo
 ---
 
 # Embedded Perl Sitemaps Proxy

@@ -1,6 +1,17 @@
 ---
-title: Red Hat/CentOS Init Script
-description: SysV init script for NGINX on RHEL, CentOS, Fedora.
+title: NGINX Red Hat CentOS SysV Init Script
+description: Complete SysVinit script for NGINX on RHEL, CentOS, and Fedora with chkconfig, graceful reload, config test, and status commands.
+keywords: nginx redhat, nginx centos, nginx init.d, nginx sysvinit, nginx rhel, nginx fedora, nginx chkconfig
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - redhat
+  - centos
+  - sysvinit
+  - init script
 ---
 
 # Red Hat/CentOS Init Script

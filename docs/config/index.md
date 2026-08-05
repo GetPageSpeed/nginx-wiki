@@ -1,5 +1,16 @@
 ---
-title: Configuration & patterns
+title: NGINX Configuration Guide - Best Practices, Patterns & Examples
+description: Master NGINX configuration with production-ready patterns and examples. Covers installation, SSL/TLS, load balancing, security hardening, debugging, and common pitfalls to avoid.
+keywords: nginx configuration, nginx config, nginx.conf, nginx setup, nginx ssl, nginx load balancing, nginx security, nginx examples, nginx best practices, nginx tutorial
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - configuration
+  - best-practices
+  - tutorial
+  - examples
 ---
 
 # Configuration & patterns

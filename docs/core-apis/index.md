@@ -1,5 +1,16 @@
 ---
-title: Core C APIs
+title: NGINX Core C APIs Reference - Module Development API Documentation
+description: Complete reference for NGINX's internal C APIs. Master ngx_http_request_t, ngx_module_t, memory pools, buffers, logging, and configuration helpers for building powerful NGINX modules.
+keywords: nginx c api, nginx module api, ngx_http_request_t, ngx_module_t, nginx memory pool, nginx development, nginx internals, nginx c programming, nginx module development
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - api
+  - c-programming
+  - module-development
+  - reference
 ---
 
 # Core C APIs

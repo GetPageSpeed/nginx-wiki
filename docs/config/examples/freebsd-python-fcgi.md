@@ -1,6 +1,17 @@
 ---
-title: FreeBSD Python FastCGI
-description: Python/Django FastCGI init script for FreeBSD.
+title: NGINX FreeBSD Python Django FastCGI Init Script
+description: FreeBSD rc.d init script for Python Django FastCGI with prefork workers, socket management, and automatic startup configuration.
+keywords: nginx freebsd python, freebsd django, freebsd fastcgi python, nginx django freebsd, python fcgi script, django runfcgi
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - freebsd
+  - python
+  - django
+  - fastcgi
 ---
 
 # FreeBSD Python FastCGI Init Script

@@ -1,5 +1,17 @@
 ---
-title: Variables API
+title: NGINX Variables API - Custom Variables and Access Methods
+description: Learn to create and access NGINX variables with ngx_http_variable_t, get/set handlers, variable indexing, and runtime variable evaluation.
+keywords: nginx variables api, ngx_http_variable_t, nginx custom variables, variable handlers, nginx variable access, nginx variable index
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - variables
+  - custom variables
+  - variable handlers
+  - module development
 ---
 
 # Variables API

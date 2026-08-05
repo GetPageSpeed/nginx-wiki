@@ -1,6 +1,17 @@
 ---
-title: CMS Made Simple
-description: A sample NGINX configuration for CMS Made Simple.
+title: NGINX CMS Made Simple Configuration Guide
+description: Configure NGINX for CMS Made Simple open-source content management system with clean URL support and PHP-FPM.
+keywords: nginx, cms made simple, cmsms, cms, content management, php, clean urls, fastcgi
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - cms made simple
+  - cms
+  - php
+  - content management
 ---
 
 # CMS Made Simple

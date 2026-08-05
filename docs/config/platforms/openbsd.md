@@ -1,6 +1,18 @@
 ---
-title: OpenBSD
-description: Installing and configuring NGINX on OpenBSD.
+title: NGINX on OpenBSD - Installation and Configuration Guide
+description: Install NGINX on OpenBSD using packages or ports, configure rc.d services, and set up PF firewall rules with pledge/unveil support.
+keywords: nginx openbsd, nginx bsd, nginx pkg_add, nginx rcctl, nginx pf firewall, openbsd web server
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - installation
+  - openbsd
+  - bsd
+  - security
+  - firewall
+  - ports
 ---
 
 # Installing NGINX on OpenBSD

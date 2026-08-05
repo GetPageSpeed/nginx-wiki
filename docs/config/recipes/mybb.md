@@ -1,6 +1,17 @@
 ---
-title: MyBB
-description: A sample NGINX configuration for MyBB forum software.
+title: NGINX MyBB Forum Configuration Guide
+description: Configure NGINX for MyBB free forum software with PHP-FPM, secure file handling, and protection for sensitive directories.
+keywords: nginx, mybb, forum software, php, bulletin board, free forum, fastcgi, community software
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - mybb
+  - forum
+  - php
+  - security
 ---
 
 # MyBB

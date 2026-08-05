@@ -1,6 +1,17 @@
 ---
-title: X-Accel (X-Sendfile)
-description: How to use X-Accel for internal redirects in NGINX.
+title: NGINX X-Accel and X-Sendfile for Protected File Downloads
+description: Use NGINX X-Accel-Redirect for internal redirects, protected file downloads, streaming, rate limiting, and backend offloading.
+keywords: nginx x-accel, nginx x-sendfile, nginx internal redirect, nginx protected downloads, nginx file serving, x-accel-redirect
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - x-accel
+  - x-sendfile
+  - file downloads
+  - internal redirect
 ---
 
 # X-Accel (X-Sendfile)

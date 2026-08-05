@@ -1,6 +1,18 @@
 ---
-title: Laravel
-description: Modern NGINX configuration for Laravel applications.
+title: NGINX Laravel Configuration Guide
+description: Production-ready NGINX configuration for Laravel 10/11 with Octane, WebSockets, Horizon support, and API rate limiting.
+keywords: nginx, laravel, php framework, octane, swoole, websockets, reverb, horizon, api, fastcgi
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - laravel
+  - php
+  - octane
+  - websockets
+  - api
 ---
 
 # Laravel

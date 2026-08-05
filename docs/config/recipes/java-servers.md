@@ -1,6 +1,19 @@
 ---
-title: Java Servers (Jetty, Tomcat, GlassFish)
-description: Using NGINX as a reverse proxy for Java application servers.
+title: NGINX Java Application Server Configuration
+description: Configure NGINX as a reverse proxy for Jetty, Tomcat, and GlassFish Java servers with load balancing and static file serving.
+keywords: nginx, java, jetty, tomcat, glassfish, reverse proxy, jsp, servlet, load balancing, jvm
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - java
+  - jetty
+  - tomcat
+  - glassfish
+  - reverse proxy
+  - load balancing
 ---
 
 # Java Servers

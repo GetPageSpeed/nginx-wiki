@@ -1,6 +1,18 @@
 ---
-title: osTicket
-description: A sample NGINX configuration for osTicket helpdesk.
+title: NGINX osTicket Configuration Guide
+description: Configure NGINX for osTicket helpdesk with HTTPS, API routing, AJAX support, and staff control panel path handling.
+keywords: nginx, osticket, helpdesk, support ticket, customer support, php, ticket system, open source
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - osticket
+  - helpdesk
+  - support ticket
+  - php
+  - api
 ---
 
 # osTicket

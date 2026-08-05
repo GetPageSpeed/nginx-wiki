@@ -1,5 +1,18 @@
 ---
-title: SSL/TLS Termination
+title: NGINX SSL/TLS Termination and HTTPS Configuration
+description: Configure NGINX for SSL/TLS termination with modern cipher suites, OCSP stapling, HSTS headers, HTTP to HTTPS redirect, and HTTP/2 support.
+keywords: nginx ssl, nginx https, nginx tls termination, nginx ssl offloading, nginx http2, nginx hsts, nginx ocsp stapling
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - ssl
+  - tls
+  - https
+  - security
+  - http2
 ---
 
 # SSL/TLS Termination (SSL Offloader)

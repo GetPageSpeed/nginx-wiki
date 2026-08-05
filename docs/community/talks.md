@@ -1,6 +1,18 @@
 ---
-title: Talks & Presentations
-description: Recorded talks and presentations about NGINX.
+title: NGINX Talks and Presentations - Conference Videos
+description: Watch NGINX conference talks and presentations covering Kubernetes ingress, load balancing, and web server architecture.
+keywords: nginx talks, nginx presentations, nginx conference, nginx videos, nginx kubernetes, nginx ingress controller
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: WebPage
+tags:
+  - community
+  - talks
+  - presentations
+  - conference
+  - kubernetes
+  - videos
 ---
 
 # Talks & Presentations

@@ -1,6 +1,17 @@
 ---
-title: macOS Launchd
-description: Running NGINX as a launchd daemon on macOS.
+title: NGINX macOS Launchd Daemon Configuration
+description: Configure NGINX as a launchd daemon on macOS with automatic startup, plist configuration, and launchctl service management.
+keywords: nginx macos, nginx launchd, nginx plist, nginx mac daemon, nginx osx, launchctl nginx
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - macos
+  - launchd
+  - daemon
+  - plist
 ---
 
 # macOS Launchd

@@ -1,6 +1,18 @@
 ---
-title: MediaWiki
-description: NGINX configuration for MediaWiki with short URLs and security.
+title: NGINX MediaWiki Configuration Guide
+description: Production-ready NGINX configuration for MediaWiki with short URLs, Visual Editor support, and security hardening.
+keywords: nginx, mediawiki, wiki, short urls, visual editor, parsoid, php, wikipedia, fastcgi
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - mediawiki
+  - wiki
+  - php
+  - short urls
+  - security
 ---
 
 # MediaWiki

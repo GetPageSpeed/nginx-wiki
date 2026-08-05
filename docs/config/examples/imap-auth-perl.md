@@ -1,6 +1,18 @@
 ---
-title: IMAP Auth with Perl
-description: Using embedded Perl for IMAP/POP3 authentication.
+title: NGINX IMAP POP3 Authentication with Embedded Perl and MySQL
+description: Implement NGINX mail proxy authentication using embedded Perl module with MySQL database integration for user validation and routing.
+keywords: nginx imap auth perl, nginx embedded perl, nginx mail auth, nginx mysql auth, nginx pop3 perl, perl mail authentication
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - imap
+  - pop3
+  - perl
+  - mysql
+  - authentication
 ---
 
 # IMAP Authentication with Embedded Perl

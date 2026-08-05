@@ -1,6 +1,17 @@
 ---
-title: Server Blocks
-description: Various example configurations demonstrating NGINX server blocks.
+title: NGINX Server Blocks and Virtual Hosts Configuration
+description: Configure NGINX server blocks for virtual hosting with wildcards, default servers, SSL/TLS, and server_name selection logic examples.
+keywords: nginx server blocks, nginx virtual hosts, nginx server_name, nginx default_server, nginx wildcard, nginx vhost
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - server blocks
+  - virtual hosts
+  - server_name
+  - configuration
 ---
 
 # Server Blocks

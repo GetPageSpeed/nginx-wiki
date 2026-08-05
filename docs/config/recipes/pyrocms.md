@@ -1,6 +1,18 @@
 ---
-title: PyroCMS
-description: A sample NGINX configuration for PyroCMS.
+title: NGINX PyroCMS Configuration Guide
+description: Configure NGINX for PyroCMS Laravel-based content management system with gzip compression and PHP-FPM pool setup.
+keywords: nginx, pyrocms, cms, laravel, php, content management, gzip compression, php-fpm pool
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - pyrocms
+  - cms
+  - laravel
+  - php
+  - gzip
 ---
 
 # PyroCMS

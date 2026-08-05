@@ -1,6 +1,18 @@
 ---
-title: HTTP/3 (QUIC)
-description: Configure NGINX with HTTP/3 and QUIC protocol support.
+title: NGINX HTTP/3 and QUIC Configuration Guide
+description: Enable HTTP/3 and QUIC protocol in NGINX for faster connections. Complete setup with TLS 1.3, firewall rules, and performance tuning.
+keywords: NGINX HTTP/3, NGINX QUIC, HTTP/3 configuration, QUIC protocol, TLS 1.3, Alt-Svc header, 0-RTT
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - HTTP/3
+  - QUIC
+  - TLS 1.3
+  - performance
+  - protocol
+  - modern web
 ---
 
 # HTTP/3 (QUIC)

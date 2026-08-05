@@ -1,6 +1,17 @@
 ---
-title: Shopware
-description: A sample NGINX configuration for Shopware e-commerce platform.
+title: NGINX Shopware Configuration Guide
+description: Production-ready NGINX configuration for Shopware e-commerce platform with static file caching and HTTP/2 push support.
+keywords: nginx, shopware, e-commerce, ecommerce, online store, php, shopping cart, open source ecommerce
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - shopware
+  - e-commerce
+  - php
+  - online store
 ---
 
 # Shopware

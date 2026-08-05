@@ -1,6 +1,18 @@
 ---
-title: Mailman
-description: A sample NGINX configuration for GNU Mailman mailing lists.
+title: NGINX GNU Mailman Configuration Guide
+description: Configure NGINX for GNU Mailman mailing list manager with clean URLs, pipermail archives, and CGI backend integration.
+keywords: nginx, mailman, mailing list, email list, newsletter, cgi, pipermail, discussion list
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - mailman
+  - mailing list
+  - email
+  - cgi
+  - pipermail
 ---
 
 # Mailman

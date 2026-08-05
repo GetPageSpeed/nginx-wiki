@@ -1,6 +1,17 @@
 ---
-title: Dynamic SSI
-description: Using Server Side Includes for dynamic content without a framework.
+title: NGINX Dynamic Content with Server Side Includes (SSI)
+description: Create dynamic web pages using NGINX SSI without a framework. Include templates, variables, and conditional content server-side.
+keywords: nginx ssi, nginx server side includes, nginx dynamic content, nginx templates, nginx include, ssi directive
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - ssi
+  - server side includes
+  - dynamic content
+  - templates
 ---
 
 # Dynamic SSI

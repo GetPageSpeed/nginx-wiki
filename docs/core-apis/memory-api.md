@@ -1,5 +1,18 @@
 ---
-title: Memory Management API
+title: NGINX Memory Management API - Pools, Arrays, Buffers Guide
+description: Master NGINX memory management with ngx_pool_t pools, ngx_array_t arrays, ngx_list_t lists, buffers, and cleanup handlers for leak-free modules.
+keywords: nginx memory api, ngx_pool_t, nginx memory pool, ngx_palloc, ngx_array_t, nginx buffers, memory management
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - memory management
+  - memory pools
+  - buffers
+  - arrays
+  - cleanup handlers
 ---
 
 # Memory Management API

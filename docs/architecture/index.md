@@ -1,5 +1,16 @@
 ---
-title: Architecture Overview
+title: NGINX Architecture Overview - Master/Worker Process Model & Event Loop
+description: Deep dive into NGINX's high-performance architecture. Learn about the master/worker process model, event-driven non-blocking I/O, epoll/kqueue event loop, and modular design that handles 100,000+ requests per second.
+keywords: nginx architecture, nginx process model, nginx event loop, nginx internals, nginx master worker, epoll kqueue, non-blocking io, nginx performance, event-driven web server, nginx design
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - architecture
+  - internals
+  - performance
+  - event-driven
 ---
 
 # Architecture Overview

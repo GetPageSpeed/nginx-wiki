@@ -1,6 +1,18 @@
 ---
-title: Talks & Resources
-description: Various resources for learning more about NGINX internals.
+title: NGINX Learning Resources - Guides, Tutorials, and Documentation
+description: Curated NGINX resources including module development guides, architecture documentation, and monitoring tutorials.
+keywords: nginx resources, nginx tutorials, nginx guides, nginx documentation, nginx module development, nginx architecture
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: WebPage
+tags:
+  - community
+  - resources
+  - tutorials
+  - documentation
+  - learning
+  - development
 ---
 
 # Talks & Resources

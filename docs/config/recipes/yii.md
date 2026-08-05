@@ -1,6 +1,17 @@
 ---
-title: Yii Framework
-description: A sample NGINX configuration for Yii.
+title: NGINX Yii Framework Configuration Guide
+description: Configure NGINX for Yii PHP framework with SEF (Search Engine Friendly) URLs, clean routing, and security hardening.
+keywords: nginx, yii, yii framework, php, sef urls, clean urls, fastcgi, url rewriting, mvc framework
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - yii
+  - php
+  - framework
+  - clean urls
 ---
 
 # Yii Framework

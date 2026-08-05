@@ -1,6 +1,17 @@
 ---
-title: Why Use NGINX?
-description: Real-world testimonials from companies using NGINX.
+title: Why Use NGINX? - Performance Testimonials and Benefits
+description: Real-world testimonials from CloudFlare, WordPress.com, and others on NGINX performance, scalability, and low memory usage.
+keywords: nginx benefits, nginx performance, nginx vs apache, nginx testimonials, nginx scalability, nginx memory usage
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: WebPage
+tags:
+  - community
+  - performance
+  - testimonials
+  - scalability
+  - comparison
 ---
 
 # Why Use NGINX?

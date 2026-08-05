@@ -1,6 +1,17 @@
 ---
-title: MoinMoin Wiki
-description: A sample NGINX configuration for MoinMoin wiki.
+title: NGINX MoinMoin Wiki Configuration Guide
+description: Configure NGINX with MoinMoin Python wiki using uWSGI for static file serving and efficient wiki page handling.
+keywords: nginx, moinmoin, wiki, python, uwsgi, wsgi, python wiki, collaborative wiki
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - moinmoin
+  - wiki
+  - python
+  - uwsgi
 ---
 
 # MoinMoin Wiki

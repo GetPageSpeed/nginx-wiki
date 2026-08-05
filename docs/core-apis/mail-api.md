@@ -1,5 +1,18 @@
 ---
-title: Mail API
+title: NGINX Mail API - IMAP, POP3, and SMTP Module Development
+description: Reference for NGINX mail subsystem API covering ngx_mail_module_t, protocol handlers, and configuration callbacks for IMAP, POP3, SMTP modules.
+keywords: nginx mail api, ngx_mail_module_t, nginx imap, nginx pop3, nginx smtp, mail proxy, nginx mail module
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - mail
+  - imap
+  - pop3
+  - smtp
+  - mail proxy
 ---
 
 # Mail API

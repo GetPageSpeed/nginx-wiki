@@ -1,6 +1,18 @@
 ---
-title: Managing Request Headers
-description: How to read and set HTTP headers in NGINX module development.
+title: NGINX Headers API - Reading and Setting HTTP Headers Guide
+description: Complete guide to managing HTTP headers in NGINX modules with headers_in, headers_out, hash lookups, and custom header manipulation.
+keywords: nginx headers api, nginx http headers, headers_in, headers_out, nginx request headers, nginx response headers, ngx_table_elt_t
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - http headers
+  - request headers
+  - response headers
+  - header manipulation
+  - module development
 ---
 
 # Managing Request Headers

@@ -1,6 +1,17 @@
 ---
-title: FastCGI Setup
-description: An example NGINX configuration that uses FastCGI.
+title: NGINX FastCGI Setup and PHP Configuration Guide
+description: Complete guide to configuring NGINX with FastCGI including PHP-CGI spawning, init scripts, fastcgi_params, and upload directory security.
+keywords: nginx fastcgi, nginx php, fastcgi_pass, fastcgi_params, php-cgi, nginx php security, fastcgi spawn
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - fastcgi
+  - php
+  - security
+  - configuration
 ---
 
 # FastCGI Setup

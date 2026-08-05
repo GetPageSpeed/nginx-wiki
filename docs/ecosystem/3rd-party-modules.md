@@ -3,8 +3,8 @@ title: NGINX 3rd-Party Modules Catalog - Community Extensions
 description: Complete catalog of community-maintained NGINX modules for caching, security, Lua scripting, load balancing, and more.
 keywords: nginx modules, nginx extensions, nginx lua, nginx security, nginx caching, nginx load balancing, third party modules
 author: NGINX Community
-date: 2024-01-01
-updated: 2025-01-21
+date: 2025-12-05
+updated: 2026-08-05
 schema_type: TechArticle
 tags:
   - modules

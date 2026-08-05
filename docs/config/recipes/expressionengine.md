@@ -1,6 +1,18 @@
 ---
-title: ExpressionEngine
-description: A sample NGINX configuration for ExpressionEngine CMS.
+title: NGINX ExpressionEngine Configuration Guide
+description: Configure NGINX for ExpressionEngine CMS with PATH_INFO support, clean URLs, and duplicate content prevention.
+keywords: nginx, expressionengine, cms, content management, path info, clean urls, php, url rewriting
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - expressionengine
+  - cms
+  - php
+  - path info
+  - clean urls
 ---
 
 # ExpressionEngine

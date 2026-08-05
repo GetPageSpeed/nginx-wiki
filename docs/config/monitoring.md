@@ -1,6 +1,19 @@
 ---
-title: Monitoring & Observability
-description: Monitor NGINX performance with metrics, logging, and tracing.
+title: NGINX Monitoring and Observability - Metrics, Logging, Tracing
+description: Monitor NGINX with Prometheus, Grafana, and logging. Set up stub_status, VTS module, JSON logs, OpenTelemetry tracing, and alerting.
+keywords: NGINX monitoring, NGINX metrics, Prometheus NGINX, Grafana NGINX, NGINX logging, stub_status, VTS module, OpenTelemetry
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - monitoring
+  - observability
+  - Prometheus
+  - Grafana
+  - logging
+  - metrics
+  - tracing
 ---
 
 # Monitoring & Observability

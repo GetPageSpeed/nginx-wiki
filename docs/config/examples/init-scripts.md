@@ -1,6 +1,18 @@
 ---
-title: Init Scripts
-description: Various useful init scripts for starting NGINX.
+title: NGINX Init Scripts for Linux, FreeBSD, macOS, and Windows
+description: Collection of NGINX init scripts for SysVinit, Upstart, FreeBSD rc.d, macOS launchd, and Windows NSSM service management.
+keywords: nginx init script, nginx startup script, nginx rc.d, nginx launchd, nginx windows service, nginx sysvinit
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - init scripts
+  - linux
+  - freebsd
+  - macos
+  - windows
 ---
 
 # NGINX Init Scripts

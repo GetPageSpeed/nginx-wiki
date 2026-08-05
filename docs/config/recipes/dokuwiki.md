@@ -1,6 +1,18 @@
 ---
-title: DokuWiki
-description: NGINX configuration for DokuWiki file-based wiki.
+title: NGINX DokuWiki Configuration Guide
+description: Production-ready NGINX configuration for DokuWiki file-based wiki with URL rewriting, security hardening, and ACL setup.
+keywords: nginx, dokuwiki, wiki, file-based wiki, no database, php, url rewriting, documentation wiki
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - dokuwiki
+  - wiki
+  - php
+  - documentation
+  - security
 ---
 
 # DokuWiki

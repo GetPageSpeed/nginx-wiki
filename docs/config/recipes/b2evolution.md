@@ -1,6 +1,18 @@
 ---
-title: b2evolution
-description: A sample NGINX configuration for b2evolution CMS.
+title: NGINX b2evolution CMS Configuration Guide
+description: Configure NGINX for b2evolution CMS with blog, photo gallery, forum support, REST API routing, and static file caching.
+keywords: nginx, b2evolution, cms, blog, photo gallery, forum, php, content management, rest api
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - b2evolution
+  - cms
+  - blog
+  - php
+  - rest api
 ---
 
 # b2evolution

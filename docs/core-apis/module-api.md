@@ -1,5 +1,18 @@
 ---
-title: Module API
+title: NGINX Module API - Complete Guide to Module Development
+description: Comprehensive guide to NGINX module development covering ngx_module_t, ngx_command_t, handlers, filters, and configuration structures.
+keywords: nginx module api, ngx_module_t, nginx module development, nginx handler, nginx filter, nginx configuration, nginx commands
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - module development
+  - c programming
+  - api reference
+  - handlers
+  - filters
 ---
 
 # Module API

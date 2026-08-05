@@ -1,6 +1,17 @@
 ---
-title: If is Evil
-description: The NGINX "if" directive is evil. If you need to use it, make sure you actually understand how it works first. You've been warned.
+title: NGINX If Is Evil - Why Avoid If Directive in Location Context
+description: Learn why NGINX if directive causes problems in location context. Understand safe alternatives like try_files, return, and rewrite directives.
+keywords: NGINX if directive, if is evil, NGINX location context, try_files, rewrite module, NGINX configuration pitfalls
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - configuration
+  - pitfalls
+  - if directive
+  - best practices
+  - rewrite module
 ---
 
 # If is Evil... when used in location context

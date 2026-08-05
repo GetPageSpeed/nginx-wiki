@@ -1,6 +1,17 @@
 ---
-title: Log Rotation
-description: How to rotate NGINX logs using the USR1 signal.
+title: NGINX Log Rotation with USR1 Signal and Logrotate
+description: Configure NGINX log rotation using USR1 signal, logrotate configuration, graceful log reopening, and automated log compression.
+keywords: nginx log rotation, nginx usr1, nginx logrotate, nginx access log, nginx error log, log management
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - log rotation
+  - logrotate
+  - logging
+  - operations
 ---
 
 # Log Rotation

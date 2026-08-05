@@ -1,6 +1,17 @@
 ---
-title: Coding Style
-description: Learn the coding style used in the NGINX source files.
+title: NGINX Coding Style Guide - C Source Code Conventions
+description: Learn the NGINX C coding style including K&R indentation, comment formats, and struct alignment conventions used in source code.
+keywords: nginx coding style, nginx source code, nginx c style, nginx development, nginx code conventions, c programming style
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - community
+  - development
+  - coding-style
+  - c-programming
+  - conventions
 ---
 
 # NGINX Coding Style

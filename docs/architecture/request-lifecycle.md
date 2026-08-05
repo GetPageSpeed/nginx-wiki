@@ -1,5 +1,19 @@
 ---
-title: HTTP Request Lifecycle
+title: NGINX HTTP Request Lifecycle - 11 Phases Explained
+description: Complete guide to NGINX HTTP request processing phases, from connection accept through content generation and response filters.
+keywords: nginx request lifecycle, nginx http phases, nginx request processing, nginx content handler, nginx filter chain, nginx subrequests
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - architecture
+  - request lifecycle
+  - HTTP phases
+  - content handlers
+  - filters
+  - subrequests
+  - module development
 ---
 
 # HTTP Request Lifecycle

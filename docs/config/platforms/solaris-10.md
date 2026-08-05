@@ -1,6 +1,17 @@
 ---
-title: Solaris 10 (Legacy)
-description: Building and installing NGINX on Solaris 10 Update 5.
+title: NGINX on Solaris 10 - Legacy Installation Guide
+description: Legacy guide for building NGINX on Solaris 10 with PCRE, OpenSSL compilation and SMF service setup. EOL January 2021.
+keywords: nginx solaris 10, nginx legacy, nginx sun studio, nginx pcre build, nginx openssl build, solaris smf
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - installation
+  - solaris
+  - legacy
+  - compilation
+  - smf
 ---
 
 # Installing NGINX on Solaris 10

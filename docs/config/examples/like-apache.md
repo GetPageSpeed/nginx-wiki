@@ -1,6 +1,17 @@
 ---
-title: Apache-like Configurations
-description: NGINX equivalents for common Apache configurations.
+title: NGINX Configuration Equivalents for Apache Directives
+description: Translate Apache configurations to NGINX including ProxyPassReverse, VirtualHost, RewriteRule, .htaccess, and common directive mappings.
+keywords: nginx apache, nginx proxypassreverse, nginx htaccess, nginx rewrite, apache to nginx, nginx migration
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - apache
+  - migration
+  - rewrite
+  - configuration
 ---
 
 # Apache-like Configurations

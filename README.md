@@ -9,14 +9,15 @@ Built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).
 ## 🚀 Quick Start
 
 ```bash
-# Install dependencies
-pip install -r requirements.txt
+# Create an isolated environment and install dependencies
+uv venv .venv
+uv pip install --python .venv/bin/python --requirement requirements.txt
 
 # Start dev server (http://127.0.0.1:9898)
-mkdocs serve -a 127.0.0.1:9898
+.venv/bin/mkdocs serve -a 127.0.0.1:9898
 
-# Build static site
-mkdocs build
+# Build and verify the static site
+make test
 ```
 
 ## 📁 Structure

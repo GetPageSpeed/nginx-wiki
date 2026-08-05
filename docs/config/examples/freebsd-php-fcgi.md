@@ -1,6 +1,17 @@
 ---
-title: FreeBSD PHP FastCGI
-description: PHP FastCGI init script for FreeBSD.
+title: NGINX FreeBSD PHP FastCGI Init Script
+description: FreeBSD rc.d init script for PHP FastCGI with configurable children, request limits, and per-user socket management.
+keywords: nginx freebsd php, freebsd php-cgi, freebsd fastcgi, nginx php freebsd, freebsd rc.d php, php fcgi script
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - freebsd
+  - php
+  - fastcgi
+  - init script
 ---
 
 # FreeBSD PHP FastCGI Init Script

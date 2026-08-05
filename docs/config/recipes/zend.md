@@ -1,6 +1,17 @@
 ---
-title: Zend Framework
-description: A sample NGINX configuration for Zend Framework.
+title: NGINX Zend Framework Configuration Guide
+description: Configure NGINX with Zend Framework PHP applications using PHP-FPM and Zend Server for MVC web development.
+keywords: nginx, zend framework, zend server, php, mvc framework, php-fpm, fastcgi, enterprise php
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - zend framework
+  - php
+  - mvc
+  - zend server
 ---
 
 # Zend Framework

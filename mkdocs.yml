@@ -2,7 +2,7 @@ site_name: NGINX Wiki
 site_description: Community documentation for NGINX configuration, architecture, and module development. Learn NGINX internals, C APIs, module development, and production-ready configuration patterns.
 site_url: https://nginx-wiki.getpagespeed.com/
 site_author: NGINX Community
-copyright: Copyright &copy; 2024-2025 NGINX Wiki Contributors
+copyright: Copyright &copy; 2024-2026 NGINX Wiki Contributors
 
 # SEO and Social
 extra:
@@ -11,26 +11,6 @@ extra:
       link: https://github.com/GetPageSpeed/nginx-wiki
       name: NGINX Wiki on GitHub
   generator: false
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX
-  meta:
-    - name: keywords
-      content: nginx, nginx configuration, nginx tutorial, web server, reverse proxy, load balancer, nginx modules, nginx development, nginx c api, nginx architecture
-    - name: author
-      content: NGINX Community
-    - name: robots
-      content: index, follow
-    - property: og:type
-      content: website
-    - property: og:site_name
-      content: NGINX Wiki
-    - property: og:locale
-      content: en_US
-    - name: twitter:card
-      content: summary_large_image
-    - name: twitter:site
-      content: "@nginx"
 
 theme:
   name: material
@@ -114,7 +94,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      auto_append:
+        - docs/includes/abbreviations.md
   - pymdownx.tabbed:
       alternate_style: true
       combine_header_slug: true
@@ -134,6 +116,7 @@ plugins:
   - meta
   - tags
   - i18n:
+      fallback_to_default: false
       languages:
         - locale: en
           default: true
@@ -141,8 +124,11 @@ plugins:
           build: true
         - locale: ru
           name: Русский
-          build: true
+          build: false
       docs_structure: suffix
+
+not_in_nav: |
+  includes/*
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -289,5 +275,4 @@ nav:
       - Coding style: community/coding-style.md
       - Talks & presentations: community/talks.md
       - Resources: community/resources.md
-
-
+  - Topics: tags.md

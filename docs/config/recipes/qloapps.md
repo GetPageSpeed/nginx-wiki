@@ -1,6 +1,18 @@
 ---
-title: QloApps
-description: A sample NGINX configuration for QloApps hotel reservation system.
+title: NGINX QloApps Hotel Booking Configuration Guide
+description: Configure NGINX for QloApps open-source hotel reservation and booking system with security headers and timeout settings.
+keywords: nginx, qloapps, hotel booking, reservation system, hotel management, php, hospitality, booking engine
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - qloapps
+  - hotel booking
+  - reservation
+  - php
+  - hospitality
 ---
 
 # QloApps

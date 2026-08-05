@@ -1,5 +1,18 @@
 ---
-title: Utility API
+title: NGINX Utility API - Strings, Encoding, and Conversion Functions
+description: Complete reference for NGINX utility functions including ngx_str_t strings, base64 encoding, URL escaping, numeric conversions, and memory operations.
+keywords: nginx utility api, ngx_str_t, nginx strings, base64 encoding, url encoding, nginx sprintf, string operations
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - utility functions
+  - strings
+  - encoding
+  - base64
+  - url encoding
 ---
 
 # Utility API

@@ -1,6 +1,17 @@
 ---
-title: IRC Channel
-description: NGINX IRC community guidelines and code of conduct.
+title: NGINX IRC Channel - Community Chat on Libera Chat
+description: Join the NGINX IRC community on Libera Chat. Learn channel guidelines, code of conduct, and how to get help.
+keywords: nginx irc, nginx chat, nginx libera chat, nginx community, nginx support, nginx help channel
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: WebPage
+tags:
+  - community
+  - irc
+  - chat
+  - support
+  - libera-chat
 ---
 
 # IRC Channel

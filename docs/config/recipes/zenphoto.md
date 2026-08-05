@@ -1,6 +1,18 @@
 ---
-title: Zenphoto
-description: A sample NGINX configuration for Zenphoto gallery.
+title: NGINX Zenphoto Gallery Configuration Guide
+description: Configure NGINX for Zenphoto multimedia CMS with mod_rewrite style URLs, image handling, album routing, and news pages.
+keywords: nginx, zenphoto, photo gallery, multimedia cms, image gallery, php, photography website
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - zenphoto
+  - photo gallery
+  - multimedia
+  - php
+  - cms
 ---
 
 # Zenphoto

@@ -1,6 +1,17 @@
 ---
-title: Configure Options
-description: Compile-time options for building NGINX from source.
+title: NGINX Configure Options - Complete Build Options Reference
+description: Reference for NGINX ./configure script options. Set paths, enable modules, configure SSL, PCRE, zlib, and compiler flags for custom builds.
+keywords: NGINX configure options, NGINX build options, ./configure NGINX, NGINX modules, NGINX compilation, NGINX source build
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - configure options
+  - compilation
+  - source build
+  - modules
+  - reference
 ---
 
 # Configure Options

@@ -1,5 +1,9 @@
 ---
 title: NGINX Wiki
+description: Документация сообщества по конфигурации NGINX, архитектуре и разработке модулей.
+keywords: NGINX, документация NGINX, конфигурация NGINX, архитектура NGINX, модули NGINX
+author: NGINX Community
+schema_type: WebPage
 ---
 
 # NGINX Wiki
@@ -9,6 +13,5 @@ title: NGINX Wiki
 Содержимое пока находится в процессе переноса с исторической NGINX Wiki.
 Структура уже готова, но многие разделы ещё нуждаются в переводе
 и актуализации.
-
 
 

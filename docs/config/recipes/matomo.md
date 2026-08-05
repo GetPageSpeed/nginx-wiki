@@ -1,6 +1,18 @@
 ---
-title: Matomo (Piwik)
-description: A sample NGINX configuration for Matomo analytics.
+title: NGINX Matomo Analytics Configuration Guide
+description: Secure NGINX configuration for Matomo (formerly Piwik) web analytics platform with protected directories and PHP handling.
+keywords: nginx, matomo, piwik, web analytics, analytics platform, php, google analytics alternative, privacy
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - matomo
+  - analytics
+  - php
+  - privacy
+  - security
 ---
 
 # Matomo (Piwik)

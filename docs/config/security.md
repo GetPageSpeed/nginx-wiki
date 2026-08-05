@@ -3,8 +3,8 @@ title: NGINX Security Hardening - Complete Web Server Security Guide
 description: Secure NGINX with security headers, rate limiting, WAF, SSL/TLS hardening, IP allowlisting, and fail2ban integration. Protect against attacks.
 keywords: NGINX security, NGINX hardening, security headers, rate limiting, ModSecurity, NGINX WAF, NGINX SSL, DDoS protection
 author: NGINX Community
-date: 2024-01-01
-updated: 2025-01-21
+date: 2025-12-05
+updated: 2026-08-05
 schema_type: TechArticle
 tags:
   - security

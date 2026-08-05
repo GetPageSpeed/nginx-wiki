@@ -1,6 +1,17 @@
 ---
-title: osCommerce
-description: A sample NGINX configuration for osCommerce.
+title: NGINX osCommerce Configuration Guide
+description: Configure NGINX for osCommerce e-commerce platform with SEO-friendly URLs, URL rewriting, and security hardening.
+keywords: nginx, oscommerce, e-commerce, ecommerce, seo urls, online store, php, shopping cart
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - oscommerce
+  - e-commerce
+  - php
+  - seo urls
 ---
 
 # osCommerce

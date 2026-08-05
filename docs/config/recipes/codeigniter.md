@@ -1,6 +1,17 @@
 ---
-title: CodeIgniter
-description: NGINX configuration for CodeIgniter 3 and 4 PHP framework.
+title: NGINX CodeIgniter Configuration Guide
+description: Production-ready NGINX configuration for CodeIgniter 3 and 4 PHP framework with clean URLs and security hardening.
+keywords: nginx, codeigniter, codeigniter 4, codeigniter 3, php framework, clean urls, fastcgi, security
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - codeigniter
+  - php
+  - framework
+  - security
 ---
 
 # CodeIgniter

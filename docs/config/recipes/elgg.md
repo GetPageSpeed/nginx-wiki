@@ -1,6 +1,18 @@
 ---
-title: Elgg
-description: A sample NGINX configuration for Elgg social networking.
+title: NGINX Elgg Social Network Configuration Guide
+description: Configure NGINX for Elgg social networking engine with memcached caching, URL rewriting, and high-performance PHP handling.
+keywords: nginx, elgg, social networking, social network, memcached, php, community platform, open source
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - elgg
+  - social networking
+  - memcached
+  - php
+  - community
 ---
 
 # Elgg

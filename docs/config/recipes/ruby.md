@@ -1,6 +1,18 @@
 ---
-title: Ruby on Rails
-description: Modern NGINX configuration for Ruby on Rails with Puma or Unicorn.
+title: NGINX Ruby on Rails Configuration Guide
+description: Production-ready NGINX configuration for Ruby on Rails with Puma or Unicorn, including ActionCable WebSocket support.
+keywords: nginx, ruby, rails, ruby on rails, puma, unicorn, actioncable, websocket, asset pipeline, deployment
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - ruby
+  - rails
+  - puma
+  - unicorn
+  - websocket
 ---
 
 # Ruby on Rails

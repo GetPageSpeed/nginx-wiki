@@ -1,6 +1,17 @@
 ---
-title: Red Hat PHP FastCGI
-description: PHP FastCGI init script for RHEL/CentOS.
+title: NGINX Red Hat CentOS PHP FastCGI Init Script
+description: SysVinit script for PHP FastCGI on RHEL and CentOS with configurable children, max requests, and automatic user creation.
+keywords: nginx redhat php, centos php fastcgi, rhel php-cgi, nginx php init script, php fastcgi redhat, centos nginx php
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - redhat
+  - centos
+  - php
+  - fastcgi
 ---
 
 # PHP FastCGI Init Script for Red Hat/CentOS

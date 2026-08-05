@@ -1,6 +1,18 @@
 ---
-title: Bagisto
-description: A sample NGINX configuration for Bagisto e-commerce.
+title: NGINX Bagisto E-commerce Configuration Guide
+description: Configure NGINX for Bagisto Laravel and Vue.js e-commerce framework with security headers and PHP-FPM integration.
+keywords: nginx, bagisto, e-commerce, ecommerce, laravel, vue.js, webkul, online store, php
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - bagisto
+  - e-commerce
+  - laravel
+  - vue.js
+  - php
 ---
 
 # Bagisto

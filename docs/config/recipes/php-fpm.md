@@ -1,6 +1,18 @@
 ---
-title: PHP-FPM
-description: Modern NGINX configuration with PHP FastCGI Process Manager.
+title: NGINX PHP-FPM Configuration Guide
+description: Complete guide to configuring NGINX with PHP-FPM including FastCGI setup, performance tuning, caching, and security best practices.
+keywords: nginx, php-fpm, fastcgi, php configuration, unix socket, tcp socket, php performance, fastcgi caching
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - php-fpm
+  - fastcgi
+  - php
+  - performance
+  - caching
 ---
 
 # PHP-FPM

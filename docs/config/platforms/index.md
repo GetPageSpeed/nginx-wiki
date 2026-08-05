@@ -1,6 +1,18 @@
 ---
-title: Platform-specific Guides
-description: Installing and configuring NGINX on various operating systems.
+title: NGINX Platform Installation Guides - OS-Specific Setup
+description: Install and configure NGINX on Linux, BSD, Solaris, macOS, and Windows with platform-specific instructions and package managers.
+keywords: nginx installation, nginx linux, nginx bsd, nginx solaris, nginx macos, nginx windows, nginx package manager
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - installation
+  - platforms
+  - linux
+  - bsd
+  - solaris
+  - configuration
 ---
 
 # Platform-specific Guides

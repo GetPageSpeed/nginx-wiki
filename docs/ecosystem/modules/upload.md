@@ -1,6 +1,17 @@
 ---
-title: Upload Module
-description: File upload handling using multipart/form-data (RFC 1867).
+title: NGINX Upload Module - File Upload Handling Guide
+description: Configure NGINX upload module for multipart/form-data file uploads with resumable uploads, checksums, and rate limiting.
+keywords: nginx upload, nginx file upload, multipart form data, nginx upload module, resumable upload, nginx file handling
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - modules
+  - file-upload
+  - multipart
+  - form-data
+  - file-handling
 ---
 
 # Upload Module

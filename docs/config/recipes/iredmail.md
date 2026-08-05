@@ -1,6 +1,18 @@
 ---
-title: iRedMail
-description: A sample NGINX configuration for iRedMail.
+title: NGINX iRedMail Configuration Guide
+description: Configure NGINX for iRedMail mail server with SSL/TLS webmail, iRedAdmin Python panel via uWSGI, and secure PHP handling.
+keywords: nginx, iredmail, mail server, webmail, uwsgi, ssl, tls, email server, php, python
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - iredmail
+  - mail server
+  - webmail
+  - ssl
+  - uwsgi
 ---
 
 # iRedMail

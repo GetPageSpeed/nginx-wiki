@@ -1,6 +1,17 @@
 ---
-title: Systemd Service File
-description: An example NGINX systemd service file.
+title: NGINX Systemd Service File Configuration
+description: Configure NGINX as a systemd service on Linux with graceful reload, config validation, PID file management, and custom binary paths.
+keywords: nginx systemd, nginx service file, nginx linux service, nginx systemctl, nginx daemon, nginx startup
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - systemd
+  - linux
+  - service management
+  - operations
 ---
 
 # NGINX Systemd Service File

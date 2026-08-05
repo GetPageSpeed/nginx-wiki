@@ -1,5 +1,19 @@
 ---
-title: HTTP API
+title: NGINX HTTP API - Request Handling and Response Generation
+description: Comprehensive HTTP API guide covering ngx_http_request_t, headers, body filters, subrequests, and response generation for NGINX module development.
+keywords: nginx http api, ngx_http_request_t, nginx request handler, nginx response, nginx headers, nginx body filter, nginx subrequest
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - http
+  - request handling
+  - response generation
+  - headers
+  - filters
+  - subrequests
 ---
 
 # HTTP API

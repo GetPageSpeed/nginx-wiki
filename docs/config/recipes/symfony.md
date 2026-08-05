@@ -1,6 +1,18 @@
 ---
-title: Symfony
-description: Modern NGINX configuration for Symfony 5/6/7 applications.
+title: NGINX Symfony Configuration Guide
+description: Production-ready NGINX configuration for Symfony 5, 6, and 7 with Webpack Encore, API Platform support, and FastCGI caching.
+keywords: nginx, symfony, php framework, webpack encore, api platform, fastcgi, opcache preloading, deployment
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - symfony
+  - php
+  - api platform
+  - webpack encore
+  - deployment
 ---
 
 # Symfony

@@ -1,6 +1,17 @@
 ---
-title: IMAP/POP3 Proxy
-description: Example NGINX configurations for IMAP and POP3 mail proxying.
+title: NGINX IMAP and POP3 Mail Proxy Configuration
+description: Configure NGINX as an IMAP/POP3 mail proxy with STARTTLS, IMAPS on port 993, SSL/TLS encryption, and authentication backend integration.
+keywords: nginx imap proxy, nginx pop3 proxy, nginx mail proxy, nginx starttls, nginx imaps, nginx mail module
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - imap
+  - pop3
+  - mail proxy
+  - ssl
 ---
 
 # IMAP/POP3 Proxy

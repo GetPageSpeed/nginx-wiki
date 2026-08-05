@@ -1,6 +1,17 @@
 ---
-title: SSL/TLS Configuration
-description: Modern SSL/TLS configuration for NGINX with best practices.
+title: NGINX SSL/TLS Configuration - HTTPS, Let's Encrypt & Security Best Practices
+description: Complete NGINX SSL/TLS configuration guide. Learn HTTPS setup, Let's Encrypt certificates, TLS 1.3, cipher suites, HSTS, OCSP stapling, and A+ SSL Labs rating configuration.
+keywords: nginx ssl, nginx tls, nginx https, nginx lets encrypt, nginx certificate, nginx ssl configuration, nginx tls 1.3, nginx hsts, nginx ocsp stapling, ssl labs a+
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - ssl
+  - tls
+  - https
+  - security
+  - lets-encrypt
 ---
 
 # SSL/TLS Configuration

@@ -1,6 +1,18 @@
 ---
-title: Omeka
-description: A sample NGINX configuration for Omeka digital collections.
+title: NGINX Omeka Configuration Guide
+description: Configure NGINX for Omeka digital collections platform with admin routing, clean URLs, and static file caching.
+keywords: nginx, omeka, digital collections, museum, archives, php, cultural heritage, exhibitions
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - omeka
+  - digital collections
+  - museum
+  - php
+  - archives
 ---
 
 # Omeka

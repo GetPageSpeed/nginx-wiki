@@ -1,6 +1,19 @@
 ---
-title: Geth (Ethereum)
-description: A sample NGINX configuration for Geth (go-ethereum) RPC and WebSocket.
+title: NGINX Geth Ethereum Configuration Guide
+description: Configure NGINX as reverse proxy for Geth go-ethereum node with RPC and WebSocket endpoints for Web3.js integration.
+keywords: nginx, geth, ethereum, go-ethereum, rpc, websocket, web3, blockchain, cryptocurrency, node
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - geth
+  - ethereum
+  - blockchain
+  - websocket
+  - rpc
+  - web3
 ---
 
 # Geth (go-ethereum)

@@ -1,5 +1,17 @@
 ---
-title: Examples
+title: NGINX Configuration Examples and Recipes
+description: Curated collection of NGINX configuration examples including load balancing, reverse proxy, SSL termination, FastCGI, and server blocks.
+keywords: nginx examples, nginx configuration, nginx recipes, nginx tutorials, web server configuration
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - configuration
+  - examples
+  - recipes
+  - web server
 ---
 
 # Configuration Examples

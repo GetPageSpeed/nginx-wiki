@@ -1,6 +1,17 @@
 ---
-title: Ubuntu Upstart
-description: Running NGINX with Ubuntu Upstart init system.
+title: NGINX Ubuntu Upstart Init Configuration (Legacy)
+description: Configure NGINX with Ubuntu Upstart init system for automatic startup, respawning, and graceful configuration testing on older systems.
+keywords: nginx upstart, nginx ubuntu, nginx init, nginx respawn, upstart configuration, nginx legacy
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - ubuntu
+  - upstart
+  - init
+  - legacy
 ---
 
 # Ubuntu Upstart

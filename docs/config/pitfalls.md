@@ -3,8 +3,8 @@ title: NGINX Pitfalls and Common Mistakes - Configuration Errors to Avoid
 description: Avoid common NGINX configuration mistakes. Learn about chmod 777 dangers, root inside location, proxy_pass with trailing slashes, if directive issues, and more pitfalls that break NGINX setups.
 keywords: nginx pitfalls, nginx common mistakes, nginx configuration errors, nginx troubleshooting, nginx if is evil, nginx root location, nginx proxy_pass, nginx best practices, nginx debugging
 author: NGINX Community
-date: 2024-01-01
-updated: 2025-01-21
+date: 2025-12-05
+updated: 2026-08-05
 schema_type: TechArticle
 tags:
   - configuration

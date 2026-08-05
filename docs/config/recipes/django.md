@@ -1,6 +1,18 @@
 ---
-title: Django
-description: Modern NGINX configuration for Django with Gunicorn or uWSGI.
+title: NGINX Django Configuration Guide
+description: Production-ready NGINX configuration for Django with Gunicorn or uWSGI, including WebSocket support via Django Channels.
+keywords: nginx, django, python, gunicorn, uwsgi, wsgi, websocket, django channels, static files, reverse proxy
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - django
+  - python
+  - gunicorn
+  - uwsgi
+  - websocket
 ---
 
 # Django

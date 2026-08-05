@@ -1,5 +1,19 @@
 ---
-title: Module Examples
+title: NGINX Module Examples - Complete Working Code Samples
+description: Working NGINX module examples including Hello World handler, JSON echo, access phase module, and response filters with full source code.
+keywords: NGINX module examples, NGINX hello world, HTTP handler module, NGINX filter module, NGINX C code examples, access phase
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - module-examples
+  - http-handler
+  - filter-module
+  - access-phase
+  - c-programming
+  - source-code
 ---
 
 # Module Examples

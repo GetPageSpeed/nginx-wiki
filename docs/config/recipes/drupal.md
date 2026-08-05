@@ -1,6 +1,18 @@
 ---
-title: Drupal
-description: Modern NGINX configuration for Drupal 9/10 with security hardening.
+title: NGINX Drupal Configuration Guide
+description: Production-ready NGINX configuration for Drupal 9 and 10 with security hardening, multisite setup, and performance optimization.
+keywords: nginx, drupal, drupal 10, drupal 9, cms, php, fastcgi, multisite, security, caching
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - drupal
+  - cms
+  - php
+  - security
+  - multisite
 ---
 
 # Drupal

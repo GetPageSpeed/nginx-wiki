@@ -1,6 +1,18 @@
 ---
-title: Solaris / illumos
-description: Installing and configuring NGINX on Solaris and illumos-based systems.
+title: NGINX on Solaris and illumos - Installation Guide
+description: Build and install NGINX on Solaris 11.4+ and illumos (OmniOS, SmartOS) with SMF service configuration and compile instructions.
+keywords: nginx solaris, nginx illumos, nginx omnios, nginx smartos, nginx smf, nginx solaris installation
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - installation
+  - solaris
+  - illumos
+  - smf
+  - unix
+  - compilation
 ---
 
 # Installing NGINX on Solaris / illumos

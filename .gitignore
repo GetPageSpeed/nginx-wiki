@@ -9,6 +9,11 @@ venv/
 
 # MkDocs
 site/
+.cache/
+
+# Browser automation artifacts
+.playwright-cli/
+.playwright-mcp/
 
 # Build artifacts
 build/

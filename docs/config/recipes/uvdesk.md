@@ -1,6 +1,18 @@
 ---
-title: UVdesk
-description: A sample NGINX configuration for UVdesk helpdesk.
+title: NGINX UVdesk Helpdesk Configuration Guide
+description: Configure NGINX for UVdesk open-source Symfony helpdesk system by Webkul with PHP-FPM and clean URL support.
+keywords: nginx, uvdesk, helpdesk, symfony, support ticket, customer support, php, webkul, open source
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - uvdesk
+  - helpdesk
+  - symfony
+  - php
+  - support ticket
 ---
 
 # UVdesk

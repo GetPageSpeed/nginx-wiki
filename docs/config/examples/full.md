@@ -1,5 +1,18 @@
 ---
-title: Full Example Configuration
+title: NGINX Full Example Configuration with FastCGI and Load Balancing
+description: Complete NGINX configuration example featuring multiple server blocks, FastCGI, reverse proxy, load balancing, and MIME types setup.
+keywords: nginx full config, nginx example, nginx.conf, fastcgi config, nginx load balancing, nginx reverse proxy
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - configuration
+  - fastcgi
+  - load balancing
+  - reverse proxy
+  - mime types
 ---
 
 # Full Example Configuration

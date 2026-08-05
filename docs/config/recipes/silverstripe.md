@@ -1,6 +1,18 @@
 ---
-title: SilverStripe
-description: A sample NGINX configuration for SilverStripe CMS.
+title: NGINX SilverStripe CMS Configuration Guide
+description: Configure NGINX for SilverStripe 4.1+ PHP CMS framework with security hardening and FastCGI buffer optimization.
+keywords: nginx, silverstripe, cms, php framework, content management, fastcgi, php-fpm, security
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - silverstripe
+  - cms
+  - php
+  - framework
+  - security
 ---
 
 # SilverStripe

@@ -1,10 +1,10 @@
 ---
-title: NGINX Wiki - Community Documentation for Configuration, Architecture & Module Development
-description: The definitive community resource for NGINX. Learn configuration patterns, understand the event-driven architecture, master C APIs, and build custom modules. Free, comprehensive, and always up-to-date.
+title: NGINX Configuration, Architecture & Module Development
+description: The community-maintained NGINX reference for configuration patterns, event-driven architecture, C APIs, and custom module development.
 keywords: nginx wiki, nginx documentation, nginx configuration, nginx tutorial, nginx guide, web server, reverse proxy, load balancer, nginx modules, nginx development, nginx architecture, nginx c api, high performance web server
 author: NGINX Community
-date: 2024-01-01
-updated: 2025-01-21
+date: 2025-12-05
+updated: 2026-08-05
 schema_type: WebSite
 og_type: website
 hide:

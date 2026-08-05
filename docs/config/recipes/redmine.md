@@ -1,6 +1,18 @@
 ---
-title: Redmine
-description: NGINX configuration for Redmine project management with Puma or Unicorn.
+title: NGINX Redmine Configuration Guide
+description: Production-ready NGINX configuration for Redmine project management with Puma or Unicorn Ruby application servers.
+keywords: nginx, redmine, project management, ruby, puma, unicorn, issue tracking, ruby on rails, agile
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - redmine
+  - ruby
+  - project management
+  - puma
+  - unicorn
 ---
 
 # Redmine

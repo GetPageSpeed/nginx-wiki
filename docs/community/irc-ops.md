@@ -1,6 +1,17 @@
 ---
-title: IRC Operator Guidelines
-description: Guidelines for NGINX IRC channel operators.
+title: NGINX IRC Operator Guidelines - Moderation Best Practices
+description: Guidelines for NGINX IRC channel operators including moderation best practices, ban policies, and handling trolls.
+keywords: nginx irc operators, nginx moderation, irc guidelines, nginx channel ops, irc moderation, nginx irc rules
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: WebPage
+tags:
+  - community
+  - irc
+  - moderation
+  - operators
+  - guidelines
 ---
 
 # IRC Operator Guidelines

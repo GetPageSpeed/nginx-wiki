@@ -1,6 +1,18 @@
 ---
-title: Optimizations
-description: This page describes ways to optimize your NGINX configurations to improve your request processing speed.
+title: NGINX Performance Optimization - Tuning Guide for Speed
+description: Optimize NGINX performance with worker processes, event models, sendfile, gzip compression, buffers, and file descriptor tuning for high traffic.
+keywords: NGINX optimization, NGINX performance, worker_processes, epoll, sendfile, gzip compression, NGINX tuning, high performance
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - optimization
+  - performance
+  - tuning
+  - worker processes
+  - compression
+  - buffers
 ---
 
 # Optimizations

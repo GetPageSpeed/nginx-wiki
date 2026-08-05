@@ -1,5 +1,17 @@
 ---
-title: Module Development
+title: NGINX Module Development Guide - Build Custom Modules in C
+description: Complete guide to developing NGINX modules in C. Learn to create HTTP handlers, filters, upstream modules, and custom directives. Includes hello world example, build instructions, and debugging tips.
+keywords: nginx module development, nginx c module, nginx custom module, nginx handler, nginx filter, nginx upstream module, nginx directive, nginx plugin, nginx extension, build nginx module
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - module-development
+  - c-programming
+  - tutorial
+  - handlers
+  - filters
 ---
 
 # Module Development

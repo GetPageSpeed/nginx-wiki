@@ -1,6 +1,18 @@
 ---
-title: XenForo
-description: NGINX configuration for XenForo forum software.
+title: NGINX XenForo Configuration Guide
+description: Production-ready NGINX configuration for XenForo 2.x forum software with friendly URLs, WebSocket support, and security.
+keywords: nginx, xenforo, forum software, php, friendly urls, websocket, community forum, bulletin board
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - xenforo
+  - forum
+  - php
+  - websocket
+  - security
 ---
 
 # XenForo

@@ -1,6 +1,17 @@
 ---
-title: Getting Started
-description: Quick start guide for installing and running NGINX.
+title: Getting Started with NGINX - Quick Start Installation Guide
+description: Get started with NGINX quickly. Install via package managers or source, configure basic settings, and run your first NGINX web server instance.
+keywords: NGINX getting started, NGINX quick start, install NGINX, NGINX tutorial, NGINX beginners, first NGINX setup
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - getting started
+  - installation
+  - quick start
+  - tutorial
+  - beginners
 ---
 
 # Getting Started

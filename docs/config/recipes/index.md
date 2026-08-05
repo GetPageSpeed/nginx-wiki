@@ -1,6 +1,19 @@
 ---
-title: Application Recipes
-description: NGINX configuration recipes for popular applications.
+title: NGINX Application Configuration Recipes
+description: Ready-to-use NGINX configuration recipes for popular web applications, frameworks, CMS, and e-commerce platforms.
+keywords: nginx, configuration, recipes, web applications, php, python, ruby, java, cms, frameworks
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - configuration
+  - recipes
+  - web applications
+  - php frameworks
+  - cms
+  - e-commerce
 ---
 
 # Application Recipes

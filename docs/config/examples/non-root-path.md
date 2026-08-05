@@ -1,6 +1,17 @@
 ---
-title: Non-Root Web Path
-description: FastCGI configuration for applications installed in a subdirectory.
+title: NGINX FastCGI Configuration for Non-Root Web Paths
+description: Configure NGINX FastCGI for applications in subdirectories with proper PATH_INFO and SCRIPT_NAME parameters like Apache FastCGI.
+keywords: nginx fastcgi path, nginx subdirectory, nginx path_info, nginx script_name, nginx non-root, nginx fastcgi subdirectory
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - fastcgi
+  - path_info
+  - subdirectory
+  - configuration
 ---
 
 # Non-Root Web Path

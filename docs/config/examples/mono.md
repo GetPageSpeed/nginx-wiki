@@ -1,6 +1,17 @@
 ---
-title: Mono (.NET) FastCGI
-description: Running .NET/ASP.NET websites with Mono behind NGINX.
+title: NGINX with Mono FastCGI for .NET and ASP.NET Applications
+description: Configure NGINX to serve .NET and ASP.NET websites using Mono FastCGI server with TCP or Unix socket connections.
+keywords: nginx mono, nginx aspnet, nginx dotnet, nginx fastcgi mono, mono fastcgi server, nginx csharp
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - mono
+  - dotnet
+  - aspnet
+  - fastcgi
 ---
 
 # Mono (.NET) FastCGI

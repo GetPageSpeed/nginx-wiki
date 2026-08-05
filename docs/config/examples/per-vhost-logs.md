@@ -1,6 +1,17 @@
 ---
-title: Per-VirtualHost Logging
-description: Separate error and access logs for each server block.
+title: NGINX Per-Virtual Host Logging Configuration
+description: Configure separate access and error logs for each NGINX virtual host with custom log formats, log levels, and per-domain logging.
+keywords: nginx logging, nginx access log, nginx error log, nginx per vhost logs, nginx log format, nginx virtual host logs
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - logging
+  - virtual hosts
+  - access log
+  - error log
 ---
 
 # Per-VirtualHost Logging

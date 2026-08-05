@@ -1,6 +1,18 @@
 ---
-title: Qwebirc
-description: A sample NGINX configuration for Qwebirc IRC client.
+title: NGINX Qwebirc IRC Client Configuration Guide
+description: Configure NGINX as reverse proxy for Qwebirc web-based IRC client with redirect and proxy methods for embedded server.
+keywords: nginx, qwebirc, irc, web irc, chat, webchat, reverse proxy, irc client
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - qwebirc
+  - irc
+  - webchat
+  - reverse proxy
+  - chat
 ---
 
 # Qwebirc

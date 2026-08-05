@@ -1,5 +1,19 @@
 ---
-title: Event Loop & Concurrency
+title: NGINX Event Loop - Non-Blocking I/O and Concurrency Model
+description: Understand NGINX event-driven architecture with epoll, kqueue, and non-blocking I/O that handles thousands of concurrent connections efficiently.
+keywords: nginx event loop, nginx epoll, nginx kqueue, nginx non-blocking, nginx concurrency, nginx event-driven, nginx performance
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - architecture
+  - event loop
+  - epoll
+  - kqueue
+  - concurrency
+  - non-blocking I/O
+  - performance tuning
 ---
 
 # Event Loop & Concurrency

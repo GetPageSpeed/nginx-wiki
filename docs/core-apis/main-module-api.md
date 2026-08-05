@@ -1,5 +1,17 @@
 ---
-title: Main module API
+title: NGINX Main Module API - Core Types and Structures Reference
+description: Reference guide for NGINX core types including ngx_module_t, ngx_cycle_t, ngx_connection_t, and module context structures for HTTP and mail.
+keywords: nginx main module api, ngx_module_t, ngx_cycle_t, ngx_connection_t, nginx core types, nginx module context
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - core api
+  - module types
+  - ngx_module_t
+  - ngx_cycle_t
 ---
 
 # Main module API

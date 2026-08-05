@@ -1,5 +1,18 @@
 ---
-title: Logging API
+title: NGINX Logging API - Error Logging and Debug Messages Guide
+description: Complete guide to NGINX logging API with ngx_log_error, debug macros, log levels, format specifiers, and custom log handlers for module development.
+keywords: nginx logging api, ngx_log_error, nginx debug logging, nginx log levels, nginx error log, nginx log format
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - logging
+  - debugging
+  - error handling
+  - log levels
+  - module development
 ---
 
 # Logging API

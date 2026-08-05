@@ -1,6 +1,18 @@
 ---
-title: Installing & running NGINX
-description: This page describes various ways to download and install NGINX.
+title: Installing and Running NGINX - Complete Installation Guide
+description: Install NGINX on Linux, Windows, or from source. Covers package managers, NGINX Extras repository, and building with custom modules.
+keywords: NGINX installation, install NGINX, NGINX Linux, NGINX Windows, build NGINX from source, NGINX packages
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - installation
+  - setup
+  - linux
+  - windows
+  - source build
+  - packages
 ---
 
 # Installing & running NGINX

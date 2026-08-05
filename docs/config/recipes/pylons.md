@@ -1,6 +1,17 @@
 ---
-title: Pylons
-description: A sample NGINX configuration for Pylons Python framework.
+title: NGINX Pylons Framework Configuration
+description: Configure NGINX with Pylons Python web framework using Flup FastCGI for production deployment and request handling.
+keywords: nginx, pylons, python, fastcgi, flup, web framework, wsgi, python web development
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - pylons
+  - python
+  - fastcgi
+  - flup
 ---
 
 # Pylons

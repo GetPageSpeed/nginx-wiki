@@ -1,6 +1,16 @@
 ---
-title: Load Balancing
-description: NGINX load balancing configuration with upstream servers.
+title: NGINX Load Balancing - Upstream Configuration & High Availability Guide
+description: Configure NGINX load balancing with upstream servers. Learn round-robin, least connections, IP hash, weighted distribution, health checks, and failover strategies for high availability.
+keywords: nginx load balancing, nginx upstream, nginx round robin, nginx least connections, nginx ip hash, nginx health check, nginx failover, nginx high availability, nginx reverse proxy
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - load-balancing
+  - upstream
+  - high-availability
+  - reverse-proxy
 ---
 
 # Load Balancing

@@ -1,6 +1,17 @@
 ---
-title: Forwarded Header (RFC 7239)
-description: NGINX configuration for deploying the standardized Forwarded header.
+title: NGINX Forwarded Header Configuration per RFC 7239
+description: Implement RFC 7239 standardized Forwarded header in NGINX replacing X-Forwarded-For with proper IPv4/IPv6 handling and validation.
+keywords: nginx forwarded header, rfc 7239, x-forwarded-for, nginx proxy headers, nginx real ip, nginx map directive
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - forwarded header
+  - rfc 7239
+  - proxy
+  - headers
 ---
 
 # Forwarded Header (RFC 7239)

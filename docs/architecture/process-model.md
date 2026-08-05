@@ -1,5 +1,18 @@
 ---
-title: Process Model
+title: NGINX Process Model - Master-Worker Architecture Guide
+description: Learn how NGINX master-worker process architecture enables high performance, graceful restarts, and fault isolation for production deployments.
+keywords: nginx process model, nginx master worker, nginx architecture, nginx worker processes, nginx signals, nginx graceful reload
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - architecture
+  - process model
+  - master-worker
+  - signals
+  - shared memory
+  - configuration
 ---
 
 # Process Model

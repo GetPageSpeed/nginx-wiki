@@ -1,6 +1,18 @@
 ---
-title: SPIP
-description: A sample NGINX configuration for SPIP CMS.
+title: NGINX SPIP CMS Configuration Guide
+description: Configure NGINX for SPIP French content management system with security hardening and FastCGI buffer optimization.
+keywords: nginx, spip, cms, french cms, content management, php, fastcgi, security hardening
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - spip
+  - cms
+  - php
+  - security
+  - fastcgi
 ---
 
 # SPIP

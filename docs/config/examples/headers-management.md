@@ -1,6 +1,17 @@
 ---
-title: Headers Management
-description: Managing HTTP request and response headers in NGINX modules.
+title: NGINX Module Development HTTP Headers Management
+description: Manage HTTP headers in NGINX C modules with headers_in, headers_out structures, hash lookups, and custom header manipulation code.
+keywords: nginx headers, nginx module development, nginx headers_in, nginx headers_out, nginx c module, nginx header api
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - module development
+  - headers
+  - c programming
+  - api
 ---
 
 # Headers Management

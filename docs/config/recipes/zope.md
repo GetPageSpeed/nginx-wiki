@@ -1,6 +1,18 @@
 ---
-title: Zope via FastCGI
-description: Using NGINX as a front-end for Zope via FastCGI.
+title: NGINX Zope Configuration via FastCGI
+description: Configure NGINX as a front-end for Zope and Plone Python application server using FastCGI with PATH_INFO handling.
+keywords: nginx, zope, plone, python, fastcgi, cms, python cms, content management, path info
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - zope
+  - plone
+  - python
+  - fastcgi
+  - cms
 ---
 
 # Zope via FastCGI

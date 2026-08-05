@@ -1,6 +1,18 @@
 ---
-title: Memcache Preload
-description: Experimental FUSE filesystem to preload Memcache for NGINX.
+title: NGINX Memcache Preload with Python FUSE Filesystem
+description: Experimental Python FUSE filesystem to preload static content into Memcached for serving via NGINX memcached module.
+keywords: nginx memcached, nginx fuse, nginx memcache preload, nginx caching, memcached nginx, nginx python fuse
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - memcached
+  - fuse
+  - python
+  - caching
+  - experimental
 ---
 
 # Memcache Preload with FUSE

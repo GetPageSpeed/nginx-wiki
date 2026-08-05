@@ -2,128 +2,95 @@
 
 {% block extrahead %}
   {% if page %}
-  <!-- Canonical URL -->
-  <link rel="canonical" href="{{ config.site_url }}{{ page.url }}" />
-
-  <!-- Enhanced Meta Tags -->
-  <meta name="description" content="{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}" />
   <meta name="keywords" content="{% if page.meta and page.meta.keywords %}{{ page.meta.keywords }}{% else %}nginx, nginx configuration, nginx tutorial, web server, reverse proxy, load balancer{% endif %}" />
-  <meta name="author" content="{% if page.meta and page.meta.author %}{{ page.meta.author }}{% else %}NGINX Community{% endif %}" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="theme-color" content="#ffffff" />
-
-  <!-- Bing Webmaster Tools Verification -->
   <meta name="msvalidate.01" content="748C11B6954B5C8186B9B999752B7199" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="{% if page.meta and page.meta.og_type %}{{ page.meta.og_type }}{% else %}article{% endif %}" />
+  <meta property="og:type" content="{% if page.meta and page.meta.og_type %}{{ page.meta.og_type }}{% elif page.meta and page.meta.schema_type == 'TechArticle' %}article{% else %}website{% endif %}" />
   <meta property="og:url" content="{{ config.site_url }}{{ page.url }}" />
-  <meta property="og:title" content="{% if page.meta and page.meta.title %}{{ page.meta.title }}{% elif page.title %}{{ page.title }}{% else %}{{ config.site_name }}{% endif %} - {{ config.site_name }}" />
+  <meta property="og:title" content="{% if page.meta and page.meta.title %}{{ page.meta.title }}{% elif page.title %}{{ page.title }}{% else %}{{ config.site_name }}{% endif %}" />
   <meta property="og:description" content="{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}" />
   <meta property="og:image" content="{{ config.site_url }}assets/images/social-card.png" />
   <meta property="og:site_name" content="{{ config.site_name }}" />
-  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale" content="{% if config.theme.language == 'ru' %}ru_RU{% else %}en_US{% endif %}" />
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content="{{ config.site_url }}{{ page.url }}" />
-  <meta name="twitter:title" content="{% if page.meta and page.meta.title %}{{ page.meta.title }}{% elif page.title %}{{ page.title }}{% else %}{{ config.site_name }}{% endif %} - {{ config.site_name }}" />
+  <meta name="twitter:title" content="{% if page.meta and page.meta.title %}{{ page.meta.title }}{% elif page.title %}{{ page.title }}{% else %}{{ config.site_name }}{% endif %}" />
   <meta name="twitter:description" content="{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}" />
   <meta name="twitter:image" content="{{ config.site_url }}assets/images/social-card.png" />
 
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "{% if page.meta and page.meta.schema_type %}{{ page.meta.schema_type }}{% else %}TechArticle{% endif %}",
-    "headline": "{% if page.meta and page.meta.title %}{{ page.meta.title }}{% elif page.title %}{{ page.title }}{% else %}{{ config.site_name }}{% endif %}",
-    "description": "{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}{{ config.site_description }}{% endif %}",
-    "url": "{{ config.site_url }}{{ page.url }}",
-    "datePublished": "{% if page.meta and page.meta.date %}{{ page.meta.date }}{% else %}2024-01-01{% endif %}",
-    "dateModified": "{% if page.meta and page.meta.updated %}{{ page.meta.updated }}{% else %}2025-01-21{% endif %}",
-    "author": {
-      "@type": "Organization",
-      "name": "NGINX Community",
-      "url": "{{ config.site_url }}"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{ config.site_name }}",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "{{ config.site_url }}assets/images/logo.svg"
-      }
-    },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{{ config.site_url }}{{ page.url }}"
-    },
-    "image": "{{ config.site_url }}assets/images/social-card.png",
-    "inLanguage": "en-US",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "keywords": "{% if page.meta and page.meta.keywords %}{{ page.meta.keywords }}{% else %}nginx, web server, reverse proxy, configuration{% endif %}"
-  }
-  </script>
-  {% endif %}
-
-  <!-- Website Schema -->
+  {% if page.url == '' %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "{{ config.site_name }}",
-    "url": "{{ config.site_url }}",
-    "description": "{{ config.site_description }}",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "{{ config.site_url }}?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
+    "name": {{ config.site_name | tojson }},
+    "url": {{ config.site_url | tojson }},
+    "description": {{ config.site_description | tojson }},
+    "inLanguage": "en-US"
   }
   </script>
-
-  {% if page and page.parent %}
-  <!-- Breadcrumb Schema -->
+  {% elif page.meta and page.meta.schema_type == 'TechArticle' %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "{{ config.site_url }}"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "{{ page.parent.title }}",
-        "item": "{{ config.site_url }}{{ page.parent.url }}"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "{{ page.title }}",
-        "item": "{{ config.site_url }}{{ page.url }}"
+    "@type": "TechArticle",
+    "headline": {{ page.meta.title | tojson }},
+    "description": {{ page.meta.description | tojson }},
+    "url": {{ (config.site_url ~ page.url) | tojson }},
+    "datePublished": {{ page.meta.date | string | tojson }},
+    "dateModified": {{ page.meta.updated | string | tojson }},
+    "author": {
+      "@type": "Organization",
+      "name": "NGINX Community",
+      "url": {{ config.site_url | tojson }}
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ config.site_name | tojson }},
+      "logo": {
+        "@type": "ImageObject",
+        "url": {{ (config.site_url ~ 'assets/images/logo.svg') | tojson }}
       }
-    ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ (config.site_url ~ page.url) | tojson }}
+    },
+    "image": {{ (config.site_url ~ 'assets/images/social-card.png') | tojson }},
+    "inLanguage": "en-US",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "keywords": {{ page.meta.keywords | tojson }}
+  }
+  </script>
+  {% elif page.meta and page.meta.schema_type == 'WebPage' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": {{ page.meta.title | tojson }},
+    "description": {{ page.meta.description | tojson }},
+    "url": {{ (config.site_url ~ page.url) | tojson }},
+    "inLanguage": "{% if config.theme.language == 'ru' %}ru-RU{% else %}en-US{% endif %}",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": {{ config.site_name | tojson }},
+      "url": {{ config.site_url | tojson }}
+    }
   }
   </script>
   {% endif %}
+  {% endif %}
 
-  <!-- Preconnect to external resources -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-  <!-- DNS Prefetch -->
   <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-
 {% endblock %}
 
 {% block announce %}
   <div class="announce-banner">
-    <strong>NGINX Wiki</strong> — The comprehensive community documentation for NGINX configuration, architecture & module development
+    <strong>NGINX Wiki</strong> - The comprehensive community documentation for NGINX configuration, architecture &amp; module development
   </div>
 {% endblock %}

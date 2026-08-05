@@ -1,5 +1,18 @@
 ---
-title: Another Full Example
+title: NGINX Full Configuration Example with Proxy and Rewrite Rules
+description: Alternative NGINX configuration covering proxying, URL rewriting, gzip compression, static file caching, and download protection.
+keywords: nginx config example, nginx proxy, nginx rewrite, nginx gzip, nginx static files, nginx download
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - configuration
+  - proxy
+  - rewrite
+  - gzip
+  - static files
 ---
 
 # Another Full Example

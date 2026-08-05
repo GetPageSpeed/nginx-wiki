@@ -1,5 +1,19 @@
 ---
-title: Installing & Compiling NGINX
+title: Installing and Compiling NGINX - Build From Source Guide
+description: Complete guide to installing NGINX from packages and compiling from source. Learn build options, module compilation, and debug builds.
+keywords: NGINX compile, build NGINX from source, NGINX installation, NGINX modules, configure NGINX, make NGINX
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - compilation
+  - installation
+  - build-from-source
+  - modules
+  - configure
+  - make
 ---
 
 # Installing & Compiling NGINX

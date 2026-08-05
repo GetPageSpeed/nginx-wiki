@@ -1,5 +1,18 @@
 ---
-title: Configuration Directives
+title: NGINX Module Configuration Directives - Developer Guide
+description: Learn how to define custom configuration directives in NGINX modules. Covers directive types, handlers, and configuration merging.
+keywords: NGINX directives, ngx_command_t, NGINX module config, configuration handlers, NGINX C API, directive types
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - module-development
+  - configuration
+  - directives
+  - c-api
+  - ngx_command_t
 ---
 
 # Configuration Directives

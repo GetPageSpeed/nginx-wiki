@@ -1,5 +1,18 @@
 ---
-title: Event API
+title: NGINX Event API - Timers, Connections, and Event Loop Guide
+description: Master NGINX event-driven architecture with ngx_event_t, timers, read/write handlers, posted events, and async request processing patterns.
+keywords: nginx event api, ngx_event_t, nginx timers, nginx event loop, nginx async, nginx event handlers, epoll kqueue
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - events
+  - timers
+  - async programming
+  - event loop
+  - connection handling
 ---
 
 # Event API

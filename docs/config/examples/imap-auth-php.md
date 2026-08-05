@@ -1,6 +1,17 @@
 ---
-title: IMAP Auth with PHP
-description: Using a PHP script as the IMAP/POP3 authentication backend.
+title: NGINX IMAP POP3 Authentication with PHP Backend Script
+description: Implement NGINX mail proxy authentication using PHP script with user validation, backend routing, and LDAP/database integration support.
+keywords: nginx imap auth php, nginx pop3 auth, nginx mail auth script, nginx auth_http php, nginx mail proxy php, imap authentication
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - imap
+  - pop3
+  - php
+  - authentication
 ---
 
 # IMAP Authentication with PHP

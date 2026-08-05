@@ -1,6 +1,17 @@
 ---
-title: Command-line & process management
-description: This tutorial shows you how to start, stop, and control NGINX from the command line.
+title: NGINX Command-Line Options and Process Management Guide
+description: Control NGINX with command-line options, signals, and process management. Start, stop, reload config, and upgrade binaries without downtime.
+keywords: NGINX command line, NGINX signals, nginx -s reload, NGINX process management, stop NGINX, restart NGINX
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - command-line
+  - process management
+  - signals
+  - configuration reload
+  - binary upgrade
 ---
 
 # Command-line & process management

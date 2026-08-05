@@ -1,6 +1,18 @@
 ---
-title: Krayin CRM
-description: A sample NGINX configuration for Krayin CRM.
+title: NGINX Krayin CRM Configuration Guide
+description: Configure NGINX for Krayin open-source Laravel and Vue.js CRM by Webkul with security headers and PHP-FPM setup.
+keywords: nginx, krayin, crm, laravel, vue.js, customer relationship management, webkul, php, open source
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - krayin
+  - crm
+  - laravel
+  - vue.js
+  - php
 ---
 
 # Krayin CRM

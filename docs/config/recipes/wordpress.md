@@ -1,6 +1,17 @@
 ---
-title: WordPress
-description: Modern NGINX configuration for WordPress with security hardening and performance optimization.
+title: NGINX WordPress Configuration - Performance Tuning & Security Hardening
+description: Production-ready NGINX configuration for WordPress. Includes PHP-FPM setup, WP Super Cache, W3 Total Cache, security hardening, permalinks, multisite, and performance optimization.
+keywords: nginx wordpress, wordpress nginx configuration, nginx php-fpm wordpress, wordpress nginx security, wordpress nginx performance, nginx wp-admin, nginx wordpress multisite, wordpress nginx cache
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - wordpress
+  - php-fpm
+  - recipe
+  - caching
+  - security
 ---
 
 # WordPress

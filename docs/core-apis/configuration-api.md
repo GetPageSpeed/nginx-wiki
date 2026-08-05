@@ -1,5 +1,18 @@
 ---
-title: Configuration API
+title: NGINX Configuration API - Directives and Parsing Reference
+description: Complete guide to NGINX configuration API covering directive types, built-in handlers, custom parsers, and configuration merging for module development.
+keywords: nginx configuration api, nginx directives, ngx_command_t, nginx config parsing, nginx conf, directive handlers
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - configuration
+  - directives
+  - config parsing
+  - ngx_command_t
+  - module development
 ---
 
 # Configuration API

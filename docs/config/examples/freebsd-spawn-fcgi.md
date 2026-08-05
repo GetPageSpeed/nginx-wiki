@@ -1,6 +1,17 @@
 ---
-title: FreeBSD spawn-fcgi
-description: Init script for spawn-fcgi on FreeBSD.
+title: NGINX FreeBSD spawn-fcgi Init Script Configuration
+description: Flexible FreeBSD init script for spawn-fcgi supporting PHP, Python WSGI, CGILua with Unix socket and TCP port options.
+keywords: nginx freebsd, nginx spawn-fcgi, freebsd fastcgi, freebsd php, nginx freebsd init, spawn-fcgi script
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - freebsd
+  - spawn-fcgi
+  - fastcgi
+  - init script
 ---
 
 # FreeBSD spawn-fcgi Init Script

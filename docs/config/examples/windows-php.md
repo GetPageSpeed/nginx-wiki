@@ -1,6 +1,17 @@
 ---
-title: PHP on Windows
-description: Running PHP FastCGI with NGINX on Windows.
+title: NGINX PHP FastCGI Configuration on Windows
+description: Configure NGINX with PHP FastCGI on Windows using php-cgi.exe, NSSM service wrapper, batch scripts, and troubleshooting tips.
+keywords: nginx windows php, nginx windows fastcgi, php-cgi windows, nginx nssm, windows nginx service, php fastcgi windows
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - windows
+  - php
+  - fastcgi
+  - nssm
 ---
 
 # PHP FastCGI on Windows

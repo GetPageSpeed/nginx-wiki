@@ -1,6 +1,17 @@
 ---
-title: Getting Involved
-description: Ways to contribute to the NGINX community.
+title: Get Involved with NGINX - Community Participation Guide
+description: Discover ways to contribute to the NGINX community through IRC, GitHub, documentation, and issue reporting.
+keywords: nginx community, nginx contribution, nginx github, nginx irc, nginx development, nginx open source
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: WebPage
+tags:
+  - community
+  - contributing
+  - github
+  - irc
+  - open-source
 ---
 
 # Getting Involved

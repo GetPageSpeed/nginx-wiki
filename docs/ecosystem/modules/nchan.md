@@ -1,6 +1,18 @@
 ---
-title: Nchan
-description: Scalable pub/sub server for WebSockets, EventSource, and Long-Poll.
+title: NGINX Nchan Module - WebSocket and Pub/Sub Server
+description: Configure Nchan for scalable pub/sub messaging with WebSockets, Server-Sent Events, and long-polling in NGINX.
+keywords: nginx nchan, nginx websocket, nginx pub sub, nginx sse, server sent events, nginx push, real-time nginx
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - modules
+  - websocket
+  - pub-sub
+  - real-time
+  - sse
+  - long-polling
 ---
 
 # Nchan

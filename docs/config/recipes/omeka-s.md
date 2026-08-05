@@ -1,6 +1,18 @@
 ---
-title: Omeka S
-description: A sample NGINX configuration for Omeka S.
+title: NGINX Omeka S Configuration Guide
+description: Configure NGINX for Omeka S digital collections and publishing platform with admin routing, security, and static caching.
+keywords: nginx, omeka s, digital collections, museum, archives, semantic web, php, linked data, exhibitions
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - omeka s
+  - digital collections
+  - museum
+  - php
+  - semantic web
 ---
 
 # Omeka S

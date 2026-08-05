@@ -1,6 +1,17 @@
 ---
-title: CGI with fcgiwrap
-description: Running CGI applications over FastCGI with fcgiwrap.
+title: NGINX CGI Support with fcgiwrap Configuration
+description: Run traditional CGI scripts with NGINX using fcgiwrap. Install, configure, and integrate CGI applications via FastCGI protocol.
+keywords: nginx cgi, nginx fcgiwrap, nginx cgi-bin, nginx fastcgi cgi, cgi scripts nginx, fcgiwrap setup
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - cgi
+  - fcgiwrap
+  - fastcgi
+  - scripting
 ---
 
 # CGI with fcgiwrap

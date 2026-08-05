@@ -1,6 +1,17 @@
 ---
-title: Embedded Perl
-description: Examples of using embedded Perl in NGINX configurations.
+title: NGINX Embedded Perl Module Examples and Configuration
+description: Use NGINX embedded Perl for dynamic content generation, JavaScript minification, and custom request handling with perl_modules directive.
+keywords: nginx embedded perl, nginx perl module, nginx perl handler, nginx javascript minifier, nginx dynamic content, perl nginx
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - perl
+  - embedded perl
+  - dynamic content
+  - minification
 ---
 
 # Embedded Perl

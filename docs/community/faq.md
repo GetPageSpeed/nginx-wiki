@@ -1,6 +1,17 @@
 ---
-title: FAQ
-description: Frequently asked questions about NGINX.
+title: NGINX FAQ - Frequently Asked Questions and Answers
+description: Common NGINX questions answered including pronunciation, htpasswd generation, load balancing, proxying, and troubleshooting.
+keywords: nginx faq, nginx questions, nginx pronunciation, nginx htpasswd, nginx load balancing, nginx proxy, nginx help
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: WebPage
+tags:
+  - community
+  - faq
+  - troubleshooting
+  - help
+  - questions
 ---
 
 # Frequently Asked Questions

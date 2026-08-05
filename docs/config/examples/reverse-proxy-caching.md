@@ -1,5 +1,17 @@
 ---
-title: Reverse Proxy with Caching
+title: NGINX Reverse Proxy with Caching Configuration
+description: Configure NGINX as a caching reverse proxy with proxy_cache_path, cache zones, stale content serving, and cache validation settings.
+keywords: nginx reverse proxy, nginx caching, proxy_cache, nginx cache zone, nginx stale cache, nginx proxy_cache_valid
+author: NGINX Community
+date: 2025-12-05
+updated: 2026-08-05
+schema_type: TechArticle
+tags:
+  - nginx
+  - reverse proxy
+  - caching
+  - proxy cache
+  - performance
 ---
 
 # Reverse Proxy with Caching
